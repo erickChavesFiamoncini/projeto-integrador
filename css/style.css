@@ -121,6 +121,7 @@ section.slider {
     height: auto;
     position: relative;
     text-align: center;
+    transition: 1s;
 }
 .slide-box img {
     width: 100%;
@@ -146,14 +147,25 @@ section.slider {
 .nav-manual .manual-btn:hover {
     background-color: #FFFFFF;
 }
-#radio1:checked ~ .nav-auto .auto-btn1 {
-    background-color: aqua;
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color:#329b66;
 }
-#radio2:checked ~ .nav-auto .auto-btn2 {
-    background-color: aqua;
+#radio1:checked ~ .primeiro {
+    margin-left: 0%;   
 }
-#radio2:checked ~ .nav-auto .auto-btn2 {
-    background-color: aqua;
+#radio2:checked ~ .primeiro {
+    margin-left: -25%;   
+}
+#radio3:checked ~ .primeiro {
+    margin-left: -50%;   
+}
+@media screen and (max-width: 900px){
+    .slide cardmD {
+        display: none;
+    }
+    .nav-auto, .nav-manual {
+        margin-top: 60%;
+    }
 }
 /*======================================================================
                                 Footer
