@@ -98,7 +98,7 @@ header div.divPrincipal div.divDois nav ul li.food{
 }
 
 /*======================================================================
-                                Main
+                                Slide
 =======================================================================*/
 
 section.slider {
@@ -166,6 +166,67 @@ section.slider {
     .nav-auto, .nav-manual {
         margin-top: 60%;
     }
+}
+
+/*======================================================================
+                                Perguntas
+=======================================================================*/
+
+.sexo {
+    display: flex;
+    padding: 10vw 0vw 0vw 5vw;
+}
+.sexo h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section.sexo div.fem button.fem1 {
+    background: #FFFFFF;
+    color:#9dcd5a;
+    border-radius: 20px;
+    border-style: inherit;
+    margin: 1vw 0.5vw 1vw 0vw;
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 7rem;
+    cursor: pointer;
+}
+section.sexo div.masc button.masc1 {
+    background: #FFFFFF;
+    color:#9dcd5a;
+    border-radius: 20px;
+    border-style: none;
+    margin: 1vw 0.5vw 1vw 0vw;
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 7rem;
+    cursor: pointer;
+}
+section.sexo div.fem button:hover {
+    background-color:#9dcd5a;;
+    color: #FFFFFF;
+    transition: 1s;
+}
+section.sexo div.masc button:hover {
+    background-color:#9dcd5a;;
+    color: #FFFFFF;
+    transition: 1s;
+}
+section.layla div.alergia h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0vw 0vw 1vw 0vw;
+    padding: 0vw 0vw 0vw 5vw;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: plum;
+    transition: 1s;
 }
 /*======================================================================
                                 Footer

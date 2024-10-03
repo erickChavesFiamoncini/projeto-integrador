@@ -179,3 +179,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+<button><p>Alergia a frutos do mar</p></button>
+                <button><p>Alergia a amêndoas</p></button>
+                <button><p>Intolerante a lactose</p></button>
+                <button><p>Diabetes</p></button>
+
+
+
+                section.layla div.alergia button {
+                    background-color: pink;
+                    padding: 5px 5px 5px 5px;
+                    border-radius: 8px;
+                    border-style:inherit;
+                    margin: 0 0 0 5vw;
+                }
