@@ -192,3 +192,41 @@ footer {
     margin: 5px 0;
 
 }
+
+/*======================================================================
+                                Dieta
+=======================================================================*/
+
+section.alimentos h2 {
+    margin: 2vw 0 2vw 0;
+    text-align: center;
+    font-size: 40px;
+}
+section.alimentos p {
+    text-align: center;
+    margin: 0 0 3vw 0 ;
+}
+
+section.saudaveis h2{
+    font-size: 2vw;
+    margin: 0 0 2vw 4vw;
+}
+section.saudaveis ul {
+    margin: 0 0 2vw 1vw;
+}
+section.saudaveis ul li {
+    margin: 1vw 0 0vw 0 ;
+}
+
+
+
+section.naosaudaveis h2 {
+    font-size: 2vw;
+    margin: 0 0 2vw 4vw;
+}
+section.naosaudaveis ul {
+    margin: 0 0 3vw 1vw;
+}
+section.naosaudaveis ul li {
+    margin: 1vw 0 0 0 ;
+}
