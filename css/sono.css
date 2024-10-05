@@ -98,136 +98,15 @@ header div.divPrincipal div.divDois nav ul li.food{
 }
 
 /*======================================================================
-                                Slide
+                                Main
 =======================================================================*/
-
-section.slider {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    padding: 0 !important;
-    overflow: hidden;
-}
-.slider-content {
-    width: 400%;
-    height: auto;
-    display: flex;
-}
-.slider-content input {
-    display: none;
-}
-.slide-box {
-    width: 25%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    transition: 1s;
-}
-.slide-box img {
-    width: 100%;
-}
-.nav-manual, .nav-auto{
-    position: absolute;
-    width: 100%;
-    margin-top: 1%;
-    display: flex;
-    justify-content: center;
-}
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #FFFFFF;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.nav-manual .manual-btn:not(:last-child) .nav-auto div:not(:last-child) {
-    margin-right: 10px;
-}
-.nav-manual .manual-btn:hover {
-    background-color: #FFFFFF;
-}
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color:#329b66;
-}
-#radio1:checked ~ .primeiro {
-    margin-left: 0%;   
-}
-#radio2:checked ~ .primeiro {
-    margin-left: -25%;   
-}
-#radio3:checked ~ .primeiro {
-    margin-left: -50%;   
-}
-@media screen and (max-width: 900px){
-    .slide cardmD {
-        display: none;
-    }
-    .nav-auto, .nav-manual {
-        margin-top: 60%;
-    }
+main{
+    margin: 10vw 0 0 0;
 }
 
-/*======================================================================
-                                Perguntas
-=======================================================================*/
 
-.sexo {
-    display: flex;
-    padding: 10vw 0vw 0vw 5vw;
-}
-.sexo h2 {
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-section.sexo div.fem button.fem1 {
-    background: #FFFFFF;
-    color:#9dcd5a;
-    border-radius: 20px;
-    border-style: inherit;
-    margin: 1vw 0.5vw 1vw 0vw;
-    padding: 2vw 2vw 2vw 2vw;
-    font-size: 7rem;
-    cursor: pointer;
-}
-section.sexo div.masc button.masc1 {
-    background: #FFFFFF;
-    color:#9dcd5a;
-    border-radius: 20px;
-    border-style: none;
-    margin: 1vw 0.5vw 1vw 0vw;
-    padding: 2vw 2vw 2vw 2vw;
-    font-size: 7rem;
-    cursor: pointer;
-}
-section.sexo div.fem button:hover {
-    background-color:#9dcd5a;;
-    color: #FFFFFF;
-    transition: 1s;
-}
-section.sexo div.masc button:hover {
-    background-color:#9dcd5a;;
-    color: #FFFFFF;
-    transition: 1s;
-}
-section.layla div.alergia h2 {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin: 0vw 0vw 1vw 0vw;
-    padding: 0vw 0vw 0vw 5vw;
-}
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-input[type="submit"]:hover {
-    background-color: #FFFFFF;
-    color: plum;
-    transition: 1s;
-}
+
+
 /*======================================================================
                                 Footer
 =======================================================================*/
@@ -313,4 +192,3 @@ footer {
     margin: 5px 0;
 
 }
-
