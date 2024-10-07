@@ -100,8 +100,113 @@ header div.divPrincipal div.divDois nav ul li.food{
 /*======================================================================
                                 Main
 =======================================================================*/
-main{
-    margin: 10vw 0 0 0;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main section h1{
+    margin: 5.2vw 0 0 0;
+    text-align: center;
+    font-size: 50px;
+    background-color: #065713;
+    padding: 30px 0 20px 0;
+    color: #01270b;
+    font-weight: bold;
+    font-family: great vibes;
+}
+main section div.conteudo{
+    display: flex;
+    margin: 2vw 0 2vw 0;
+}
+main section div.conteudo img{
+    width: 350px;
+    height: 450px;
+    border: 5px #065713 solid;
+    margin: 0 2vw 0 15vw;
+}
+main section div.objetivo{
+    display: flex;
+    margin: 4vw 0 4vw 0;
+}
+main section div.objetivo img{
+    width: 350px;
+    height: 450px;
+    border: 5px #065713 solid;
+    margin: 0 15vw 0 2vw;
+}
+main section div.conteudo ul{
+    margin: 3vw 20vw 0 2vw;
+    line-height: 30px;
+    font-size: 20px;
+}
+main section div.conteudo ul li h2{
+    font-size: 25px;
+    margin: 0 0 2vw 0 ;
+    background: linear-gradient(to right, #065713, transparent);
+    padding: 5px 10px 5px 5px;
+}
+main section div.objetivo ul{
+    margin: 3vw 2vw 0 20vw;
+    line-height: 30px;
+    font-size: 20px;
+}
+main section div.objetivo ul li h2{
+    font-size: 25px;
+    margin: 0 0 2vw 10vw ;
+    background: linear-gradient(to right, transparent, #065713);
+    padding: 5px 5px 5px 20vw;
+    text-align: end;
+}
+main section div.conteudo ul li p{
+    margin: 20px;
+}
+main section div.objetivo ul li p{
+    margin: 20px;
+    text-align: right;
+}
+
+/*======================================================================
+                                Main - Parte 2
+=======================================================================*/
+main section div a img{
+    width: 100px;
+    height: 100px;
+    border: #5C4033 10px ridge;
+    margin: 2vw 0 0 1vw;
+}
+main section.integrantes div ul{
+    display: flex;
+    justify-content: space-around;
+}
+main section.integrantes div a{
+    margin: 0 6vw 0 0 ;
+}
+main section.integrantes div ul li p.soneca{
+    padding: 10px 0px 2vw 46px;
+    font-size: 20px;
+}
+main section.integrantes div ul li p.cueca{
+    padding: 10px 0px 50px 0px;
+    font-size: 20px;
+}
+main section.integrantes div ul li p.peteca{
+    padding: 10px 0px 50px 0px;
+    font-size: 20px;
+}
+main section.integrantes div ul li p.hipoteca{
+    padding: 10px 0px 50px 0px;
+    font-size: 20px;
+}
+main section.integrantes div ul li p.bisteca{
+    padding: 10px 0px 50px 15px;
+    font-size: 20px;
+}
+main section.integrantes div ul li p.zigue{
+    padding: 10px 0px 50px 10px;
+    font-size: 20px;
+}
+main section.integrantes div ul li p.sapeca{
+    padding: 10px 0px 50px 0px;
+    font-size: 20px;
 }
 
 
