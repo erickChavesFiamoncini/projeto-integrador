@@ -215,7 +215,7 @@ footer {
 
 
 html{
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #12173b, #0e0131 )
 }
    
 
@@ -227,10 +227,11 @@ section{
    
 }
 section.banner{
-    background-image:url(https://i.pinimg.com/564x/b3/7e/2e/b37e2ef5a434154239dc857560dd2cfc.jpg);
+    background-image:url(https://img.freepik.com/fotos-gratis/ceu-estrelado-a-noite-com-paisagem-de-montanhas_23-2151614874.jpg?t=st=1728673224~exp=1728676824~hmac=43f0f28532dfd3332b419812036933f457808145ae685aa351523151f8514829&w=1380);
     background-position: center;
     padding: 16vw;
-    background-repeat: repeat;
+    background-repeat: no no-repeat;
+    background-size: cover;
    
    
 }
@@ -238,7 +239,7 @@ section.banner h1{
     font-size: 3.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    animation: fadeIn 1.5s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -261,7 +262,7 @@ section.pequenos{
 }
 section.pequenos div {
   width: 20%;
-  background-color: #57c2ab;
+  background-color: #212e75;
   color: #ffffff;
   padding: 3vw;
   border-radius: 2vw;
