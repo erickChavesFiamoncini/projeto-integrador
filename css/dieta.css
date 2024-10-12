@@ -96,12 +96,17 @@ header div.divPrincipal div.image a{
 header div.divPrincipal div.divDois nav ul li.food{
     margin: 0 1.5vw 0 0;
 }
-
 /*======================================================================
                                 Main
 =======================================================================*/
 main{
     margin: 10vw 0 0 0;
+}
+
+section.saudaveis img {
+    width: 40vw;
+    height: 30vw;
+    margin: 10px 28vw;
 }
 
 
