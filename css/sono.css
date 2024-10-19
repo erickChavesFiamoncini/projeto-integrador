@@ -215,7 +215,7 @@ footer {
 
 
 html{
-    background: linear-gradient(to right, #12173b, #0e0131 )
+    background: linear-gradient(to right, #0a0d3d,  #22305a )
 }
    
 
@@ -227,7 +227,7 @@ section{
    
 }
 section.banner{
-    background-image:url(https://img.freepik.com/fotos-gratis/ceu-estrelado-a-noite-com-paisagem-de-montanhas_23-2151614874.jpg?t=st=1728673224~exp=1728676824~hmac=43f0f28532dfd3332b419812036933f457808145ae685aa351523151f8514829&w=1380);
+    background-image:url(https://img.freepik.com/fotos-gratis/vista-do-ceu-noturno-estrelado-com-natureza-e-paisagem-montanhosa_23-2151614882.jpg?t=st=1729336457~exp=1729340057~hmac=b24ffd0c540e23757e93780a11ed6b4cc77640f948c1f56a8873bc6db07f0bb2&w=1380);
     background-position: center;
     padding: 16vw;
     background-repeat: no no-repeat;
@@ -262,7 +262,7 @@ section.pequenos{
 }
 section.pequenos div {
   width: 20%;
-  background-color: #212e75;
+  background-color: #222c66;
   color: #ffffff;
   padding: 3vw;
   border-radius: 2vw;
