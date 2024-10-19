@@ -124,7 +124,7 @@ footer {
     font-family: Arial, sans-serif;
 }
 .footer-top h2 {
-    color: green;
+    color: #232fb8;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -146,7 +146,7 @@ footer {
 
 
 .footer-nav a:hover {
-    color: green;
+    color: #1d2bc5;
 }
 
 
@@ -215,7 +215,7 @@ footer {
 
 
 html{
-    background: linear-gradient(to right, #0a0d3d,  #22305a )
+    background: linear-gradient(to top, #0b104d,  #20276d )
 }
    
 
@@ -262,14 +262,14 @@ section.pequenos{
 }
 section.pequenos div {
   width: 20%;
-  background-color: #222c66;
+  background-color: #1c1b55;
   color: #ffffff;
   padding: 3vw;
   border-radius: 2vw;
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 0.1vw;
-  line-height: 1.2vw;
+  line-height: 1.4vw;
 }
 section.pequenos div.um i{
     padding:  0  0 0.9vw 0;
@@ -303,4 +303,59 @@ section.pequenos div.tres h2{
 }
 section.pequenos div.tres p{
     font-size: 1.1rem;
+}
+section.corpo ul{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+section.corpo ul li.lado{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.lado h3{
+    text-align: center;
+}
+section.corpo div h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 0 5vw 0;
+
+}
+section.corpo div p.legenda{
+    font-size: 1.7rem;
+    color: #d8dfff;
+    text-align: center;
+
+
+}
+section.corpo div ul li p.texto{
+    margin:1vw;
+}
+section.corpo  div.quatro h3 {
+    font-size: 1.7rem;
+    margin: 3vw 0 0 0;
+    color: #4c8cd6;
+}
+section.corpo ul li p.texto{
+    font-size: 1.4rem;
+    color: #bdd6e4;
+}
+section.curiosidades ul li h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 5vw;
+
+}
+section.curiosidades ul li span{
+    font-size: 1.7rem;
+}
+section.curiosidades ul li p{
+    font-size: 1.2rem;
+    margin: 2vw 0 3vw 0;
+    width: 50%;
+    text-align: right;
 }
