@@ -359,3 +359,7 @@ section.curiosidades ul li p{
     width: 50%;
     text-align: right;
 }
+section.curiosidades ul li p.texto{
+    font-size: 1.4rem;
+    color: #bdd6e4;
+}
