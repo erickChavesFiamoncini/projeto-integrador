@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,16 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/responsivo.css">
     <link rel="stylesheet" href="calculadoraIMC/assets/css/styleCalc.css">
-    
-    <script src="https://kit.fontawesome.com/bd5b44309d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/17a8c00d17.js" crossorigin="anonymous"></script>
     <script src="01_java.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="divPrincipal">
 
             <div class="image">
-                <a href="site.html" class="fa-solid fa-leaf"></a> 
+                <a href="site.html" class="fa-solid fa-leaf"></a>
             </div>
 
             <div class="divDois">
@@ -31,136 +32,157 @@
                         <li class="food">
                             <a href="dieta.html" class="fa-solid fa-bowl-food"></a>
                         </li>
-                        <li class="aceitacao">
-                            <a href="aceitacao.html" class="fa-solid fa-image-portrait"></a>
-                        </li>
                     </ul>
                 </nav>
             </div>
-       </div>
+        </div>
     </header>
     <main>
-       <section class="slider">
+        <section class="slider">
             <div class="slider-content">
-                
-                    <!--Radio Buttons-->
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <!--Fim Radio Buttons-->
-                    
-                    <div class="slide-box primeiro">
-                        <img class="slide cardmD" src="src/comidasaoredordomundo.png" alt="Comidas ao redor do mundo">
-                    </div>
 
-                    <div class="slide-box">
-                        <img class="slide cdcaD" src="src/comidasdecivilizaçõesantigas.png" alt="Comidas de civilizações antigas">
-                    </div>
+                <!--Radio Buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!--Fim Radio Buttons-->
 
-                    <div class="slide-box">
-                        <img class="slide rD" src="src/receitas.png" alt="Receitas">
-                    </div>
-              
-                    <div class="nav-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                    </div>
+                <div class="slide-box primeiro">
+                    <img class="slide cardmD" src="src/comidasaoredordomundo.png" alt="Comidas ao redor do mundo">
+                </div>
 
-                    <div class="nav-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                    </div>
-            </div>
-       </section>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae veritatis, magni ipsum vero quos dolores dolorum odit cum ullam dolorem voluptatum? Minus ipsum perferendis architecto excepturi impedit maxime. Quibusdam.</p>
+                <div class="slide-box">
+                    <img class="slide cdcaD" src="src/comidasdecivilizaçõesantigas.png"
+                        alt="Comidas de civilizações antigas">
+                </div>
 
-       <section class="sexo">
-            <h2>Qual seu sexo?</h2>
-            <div class="masc">
-                <button class="masc1"><i class="fa-solid fa-person"></i></button>
-            </div>
-            <div class="fem">
-                <button class="fem1"><i class="fa-solid fa-person-dress"></i></button>
-            </div> 
-       </section>
+                <div class="slide-box">
+                    <img class="slide rD" src="src/receitas.png" alt="Receitas">
+                </div>
 
-        <section class="layla">
-            <div class="alergia">
-                <h2>Alergias e Doenças</h2>
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
 
-                <div class="container">
-                    <input type="submit" value="Botão Personalizado">
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
                 </div>
             </div>
         </section>
-        
-                    <!--CALCULADORA-->
-                    <section id="body">
-                        <section id="container">
-                            <section id="img">
-                                <img src="calculadoraIMC/assets/images/ilustrarion.svg" alt="images">
-                            </section>
-                                <section id="calculator">
-                                <form id="form">
-                                    <h1 id="title">
-                                        Calculadora - IMC
-                                    </h1>
-                    
-                                    <div class="input-box">
-                                        <label for="weight">
-                                            Peso em Kg
-                                        </label>
-                                        <div class="input-field">
-                                            <i class="fa-solid fa-weight-hanging"></i>
-                                            <input type="number" id="weight" name="weight" required>
-                                            <span>
-                                                Kg
-                                            </span>
-                                        </div>
-                                    </div>
-                    
-                                    <div class="input-box">
-                                        <label for="height">
-                                            Altura em metros
-                                        </label>
-                                        <div class="input-field">
-                                            <i class="fa-solid fa-ruler"></i>
-                                            <input type="number" step= "0.01" id="height" name="height" required>
-                                            <span>
-                                                m
-                                            </span>
-                                        </div>
-                                    </div>
-                    
-                                    <button id="calculate">
-                                        Calcular
-                                    </button>
-                                </form>
-                    
-                                <div id="infos" class="hidden">
-                                    <div id="results">
-                                        <div id="bmi">
-                                            <span id="value"></span>
-                                            <span>Seu IMC</span>
-                                        </div>
-                                        <div id="description">
-                                            <span></span>
-                                        </div>
-                                    </div>
-                    
-                                    <div id="more-info">
-                                        <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">Mais informações sobre o IMC
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
-                        </section>
-                    </section>
 
+        <section class="sexo">
+            <div class="gender">
+                <h2>Qual seu sexo?</h2>
+                <div class="masc">
+                    <button class="masc1"><span class="fa-solid fa-person"></span></button>
+                    <button class="fem1"><span class="fa-solid fa-person-dress"></span></button>
+                </div>
+            </div>
 
+            <div class="perguntas">
+                <h2>Doenças e Intolerâncias</h2>
+                <ul>
+                    <li>
+                        <button><span class="fa-solid fa-magnifying-glass"></span>Intolerância a lactose</button>
+                    </li>
+                    <li>
+                        <button><span class="fa-solid fa-magnifying-glass"></span>Alergia a amêndoas</button>
+                    </li>
+                    <li>
+                        <button><span class="fa-solid fa-magnifying-glass"></span>Diabetes</button>
+                    </li>
+                    <li>
+                        <button><span class="fa-solid fa-magnifying-glass"></span>Alergia a frutos do mar</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="emen">
+                <h2>Voce deseja</h2>
+                <div class="bult">
+                    <button>Emagrecer<span class="fa-solid fa-arrow-right"></span><span class="fa-solid fa-arrow-left"></span></button>
+                </div>
+                <div class="bult1">
+                    <button>Engordar<span class="fa-solid fa-arrow-left"></span><span class="fa-solid fa-arrow-right"></span></button>
+                </div>
+            </div>
+
+            <div class="final">
+                <button type="submit"><span class="fa-solid fa-check"></span></button>            
+            </div>
+
+        </section>
+
+        <!--CALCULADORA-->
+        <section id="body">
+            <section id="container">
+
+                <section id="img">
+                    <img src="calculadoraIMC/assets/images/ilustrarion.svg" alt="images">
+                </section>
+
+                <section id="calculator">
+                    <form id="form">
+                        <h1 id="title">
+                            Calculadora - IMC
+                        </h1>
+
+                        <div class="input-box">
+                            <label for="weight">
+                                Peso em Kg
+                            </label>
+                            <div class="input-field">
+                                <span class="fa-solid fa-weight-hanging"></span>
+                                <input type="number" id="weight" name="weight" required>
+                                <span>
+                                    Kg
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="height">
+                                Altura em metros
+                            </label>
+                            <div class="input-field">
+                                <span class="fa-solid fa-ruler"></span>
+                                <input type="number" step="0.01" id="height" name="height" required>
+                                <span>
+                                    m
+                                </span>
+                            </div>
+                        </div>
+
+                        <button id="calculate">
+                            Calcular
+                        </button>
+                    </form>
+
+                    <div id="infos" class="hidden">
+                        <div id="results">
+                            <div id="bmi">
+                                <span id="value"></span>
+                                <span>Seu IMC</span>
+                            </div>
+                            <div id="description">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div id="more-info">
+                            <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">Mais informações sobre o
+                                IMC
+                                <span class="fa-solid fa-arrow-up-right-from-square"></span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
 
     </main>
     <footer class="footer">
@@ -173,8 +195,11 @@
             </nav>
         </div>
         <div class="footer-icons">
-            <a class="face" href="https://www.facebook.com/profile.php?id=61566952310775"><i class="fa-brands fa-facebook"></i></a>
-            <a class="insta" href="https://www.instagram.com/alimentacao_equilibrada.ifc?igsh=MWR1NnN1cjJ6Y216Mg%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            <a class="face" href="https://www.facebook.com/profile.php?id=61566952310775"><span
+                    class="fa-brands fa-facebook"></span></a>
+            <a class="insta"
+                href="https://www.instagram.com/alimentacao_equilibrada.ifc?igsh=MWR1NnN1cjJ6Y216Mg%3D%3D&utm_source=qr"><span
+                    class="fa-brands fa-instagram"></span></a>
         </div>
         <div class="footer-botao">
             <p>© 2024 GREENLIFE. Todos direitos Reservados.</p>
@@ -182,4 +207,5 @@
     </footer>
 </body>
 <script src="calculadoraIMC/assets/js/script.js"></script>
+
 </html>
