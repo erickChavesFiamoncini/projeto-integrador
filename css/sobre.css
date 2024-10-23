@@ -93,11 +93,6 @@ header div.divPrincipal div.image a{
     margin: 15px 0 15px 35px;
     font-size: 1.9rem;
 }
-header div.divPrincipal div.divDois nav ul li.food{
-    margin: 0 1.5vw 0 0;
-}
-
-
 /*======================================================================
                                 Main
 =======================================================================*/
@@ -370,7 +365,7 @@ footer {
     font-family: Arial, sans-serif;
 }
 .footer-top h2 {
-    color: green;
+    color: #707070;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -389,7 +384,7 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: green;
+    color: #707070;
 }
 
 
