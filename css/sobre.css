@@ -53,11 +53,11 @@ table {
                                 Geral
 =======================================================================*/
 body{
-    margin: 0vw 0vw 0 0vw;
+    margin: 0;
     color: #FFFFFF;
 }
 html{
-    background: linear-gradient(to right, #329b66, #034d3e)
+    background-color: #707070;
 }
 a {
     text-decoration: none;
@@ -97,121 +97,267 @@ header div.divPrincipal div.divDois nav ul li.food{
     margin: 0 1.5vw 0 0;
 }
 
+
 /*======================================================================
                                 Main
 =======================================================================*/
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-main section h1{
-    margin: 5.2vw 0 0 0;
+section h1{
+    margin: 6vw 0 0 0;
+    color: black;
+    font-size: 3rem;
     text-align: center;
-    font-size: 50px;
-    background-color: #065713;
-    padding: 30px 0 20px 0;
-    color: #01270b;
-    font-weight: bold;
-    font-family: great vibes;
+    text-decoration: black overline;
 }
-main section div.conteudo{
-    display: flex;
-    margin: 2vw 0 2vw 0;
+section div.h1{
+    background-color: #363636;
+    padding:  20px 0 50px 0;
+    border-bottom: black solid 10px;
 }
-main section div.conteudo img{
-    width: 350px;
-    height: 450px;
-    border: 5px #065713 solid;
-    margin: 0 2vw 0 15vw;
-}
-main section div.objetivo{
-    display: flex;
-    margin: 4vw 0 4vw 0;
-}
-main section div.objetivo img{
-    width: 350px;
-    height: 450px;
-    border: 5px #065713 solid;
-    margin: 0 15vw 0 2vw;
-}
-main section div.conteudo ul{
-    margin: 3vw 20vw 0 2vw;
-    line-height: 30px;
-    font-size: 20px;
-}
-main section div.conteudo ul li h2{
-    font-size: 25px;
-    margin: 0 0 2vw 0 ;
-    background: linear-gradient(to right, #065713, transparent);
-    padding: 5px 10px 5px 5px;
-}
-main section div.objetivo ul{
-    margin: 3vw 2vw 0 20vw;
-    line-height: 30px;
-    font-size: 20px;
-}
-main section div.objetivo ul li h2{
-    font-size: 25px;
-    margin: 0 0 2vw 10vw ;
-    background: linear-gradient(to right, transparent, #065713);
-    padding: 5px 5px 5px 20vw;
-    text-align: end;
-}
-main section div.conteudo ul li p{
-    margin: 20px;
-}
-main section div.objetivo ul li p{
-    margin: 20px;
-    text-align: right;
-}
-
 /*======================================================================
                                 Main - Parte 2
 =======================================================================*/
-main section div a img{
-    width: 100px;
-    height: 100px;
-    border: #5C4033 10px ridge;
-    margin: 2vw 0 0 1vw;
-}
-main section.integrantes div ul{
+section div.conteudo{
+    margin: 3vw 0 0 0;
     display: flex;
-    justify-content: space-around;
 }
-main section.integrantes div a{
-    margin: 0 6vw 0 0 ;
+section div.conteudo div img{
+    width: 430px;
+    height: 430px;
+    border: black 5px dashed;
+    margin: 0 0 0 12vw; 
 }
-main section.integrantes div ul li p.soneca{
-    padding: 10px 0px 2vw 46px;
-    font-size: 20px;
+section div.conteudo div ul{
+    margin: 3vw 0 1.5vw 3vw;    
 }
-main section.integrantes div ul li p.cueca{
-    padding: 10px 0px 50px 0px;
-    font-size: 20px;
+section div.conteudo div ul li h2{
+    font-size: 1.5rem;
+    margin: 0 12vw 1.5vw 0;
+    background: linear-gradient(to right, black, transparent);
+    padding: 10px;
+    border-radius: 10px;
 }
-main section.integrantes div ul li p.peteca{
-    padding: 10px 0px 50px 0px;
-    font-size: 20px;
+section div.conteudo div ul li p{
+    margin: 0 12vw 0 1.4vw;
+    line-height: 35px;
+    font-size: 1.2rem;
 }
-main section.integrantes div ul li p.hipoteca{
-    padding: 10px 0px 50px 0px;
-    font-size: 20px;
+/*======================================================================
+                                Main - Parte 3
+=======================================================================*/
+section div.objetivo{
+    margin: 3vw 0 0 0;
+    display: flex;
+    background-color: #363636;
+    padding: 40px 0 40px 0;
 }
-main section.integrantes div ul li p.bisteca{
-    padding: 10px 0px 50px 15px;
-    font-size: 20px;
+section div.objetivo div img{
+    width: 430px;
+    height: 430px;
+    border: black 5px dashed;
+    margin: 0 12vw 0 0vw; 
 }
-main section.integrantes div ul li p.zigue{
-    padding: 10px 0px 50px 10px;
-    font-size: 20px;
+section div.objetivo div ul{
+    margin: 3vw 3vw 1.5vw 0vw;    
 }
-main section.integrantes div ul li p.sapeca{
-    padding: 10px 0px 50px 0px;
-    font-size: 20px;
+section div.objetivo div ul li h2{
+    font-size: 1.5rem;
+    margin: 0 0vw 1.5vw 12vw;
+    background: linear-gradient(to left, black, transparent);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: right;
 }
+section div.objetivo div ul li p{
+    margin: 0 1.4vw 0 12vw;
+    line-height: 35px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+/*======================================================================
+                                Main - Parte 4
+=======================================================================*/
+section.integrantes{
+    display: flex;
+    margin: 5vw 0 0vw 0vw;
+}
+.foto {
+    position: relative; /* Permite que o texto seja posicionado em relação a essa div */
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 400px; /* Altura da div */
+  }
+  
+  /* Estilos da imagem */
+  .foto img {
+    width: 100%; /* A imagem ocupa 100% da largura da div */
+    height: 100%; /* A imagem ocupa 100% da altura da div */
+    object-fit: cover; /* A imagem será redimensionada para cobrir toda a div */
+  }
+  
+  .texto {
+    position: absolute; /* Posiciona o texto em relação à div */
+    top: 85%; /* Centraliza verticalmente */
+    left: 60%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o posicionamento para centralizar o texto exato */
+    color: white; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte *
+    font-weight: bold; /* Peso da fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto, para maior legibilidade */
+    text-align: center; /* Alinha o texto ao centro */
+  }
+  section.integrantes div.foto div.texto{
+    display: flex;
+    align-items: center;
+  }
+  section.integrantes div.foto a.insta{
+    font-size: 1.4rem;
+    background-color: #363636;
+    border-radius: 60px;
+    padding: 9px 10px 8px 10px;
+    margin: 0 0 0 1.7vw;
+    
+  }
+  
 
 
 
 
+
+
+
+
+/*======================================================================
+                                Slide
+=======================================================================*/
+
+section.slider {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+.slider-content input {
+    display: none;
+    margin: 78rem;
+}
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+.slide-box img {
+    width: 100%;
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-manual .manual-btn:not(:last-child) .nav-auto div:not(:last-child) {
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover {
+    background-color: #FFFFFF;
+}
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color:#FFFFFF;
+}
+#radio1:checked ~ .primeiro {
+    margin-left: 0%;   
+}
+#radio2:checked ~ .primeiro {
+    margin-left: -25%;   
+}
+#radio3:checked ~ .primeiro {
+    margin-left: -50%;   
+}
+@media screen and (max-width: 900px){
+    .slide cardmD {
+        display: none;
+    }
+    .nav-auto, .nav-manual {
+        margin-top: 60%;
+    }
+}
+
+/*======================================================================
+                                Perguntas
+=======================================================================
+
+.sexo {
+    display: flex;
+    padding: 10vw 0vw 0vw 5vw;
+}
+.sexo h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section.sexo div.fem button.fem1 {
+    background: #FFFFFF;
+    color:#9dcd5a;
+    border-radius: 20px;
+    border-style: inherit;
+    margin: 1vw 0.5vw 1vw 0vw;
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 7rem;
+    cursor: pointer;
+}
+section.sexo div.masc button.masc1 {
+    background: #FFFFFF;
+    color:#9dcd5a;
+    border-radius: 20px;
+    border-style: none;
+    margin: 1vw 0.5vw 1vw 0vw;
+    padding: 2vw 2vw 2vw 2vw;
+    font-size: 7rem;
+    cursor: pointer;
+}
+section.sexo div.fem button:hover {
+    background-color:#9dcd5a;;
+    color: #FFFFFF;
+    transition: 1s;
+}
+section.sexo div.masc button:hover {
+    background-color:#9dcd5a;;
+    color: #FFFFFF;
+    transition: 1s;
+}
+section.layla div.alergia h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0vw 0vw 1vw 0vw;
+    padding: 0vw 0vw 0vw 5vw;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: plum;
+    transition: 1s;
+}
+    */
 /*======================================================================
                                 Footer
 =======================================================================*/
