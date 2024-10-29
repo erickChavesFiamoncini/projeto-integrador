@@ -222,10 +222,11 @@ section{
    
 }
 section.banner{
-    background-image:url(https://img.freepik.com/fotos-gratis/vista-do-ceu-noturno-estrelado-com-natureza-e-paisagem-montanhosa_23-2151614882.jpg?t=st=1729336457~exp=1729340057~hmac=b24ffd0c540e23757e93780a11ed6b4cc77640f948c1f56a8873bc6db07f0bb2&w=1380);
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../src/talvez-sepe-2.png) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
+    background-size: 100% 100%, top;
+    background-position: top;
     padding: 16vw;
-    background-repeat: no no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
    
    
