@@ -215,24 +215,24 @@ section.banner h1{
 }
 
 section.alimentos {
-    margin: 5vw 0 0 0;
+    margin: 3vw 0 0 0;
     border-radius: 20vw;
 }
 section.alimentos h2 {
     font-size: 2.6rem;
-    background-color: #FFD700;
+    background-color: black;
     width: 40%;
     border-radius: 15vw;
     text-align: center;
     margin: 0 auto;
+    padding: 1vw;
 }
 
 section.alimentos p {
     text-align: center;
      line-height: 2vw;
-     font-size: 1.1rem;
-     margin: 2vw 0 0 0;
-
+     font-size: 1.3rem;
+     margin: 1vw 0 0 0;
 }
 
 
@@ -248,12 +248,13 @@ section.saudaveis h2 {
 
 section.saudaveis ul li {
     margin: 1.5vw 0 0 0;
-
+    font-size: 1.2rem;
 }
 
 section.saudaveis div.principal {
     display: flex;
     justify-content: center;
+    
 }
 section.saudaveis div.naosaudaveis{
     background-color: #7F7F7F;
@@ -269,40 +270,51 @@ section.saudaveis div.alimentossaudaveis {
 
 
 
-
-
-
-
-
-
-
-
-
-
-section.reducao {
-    margin: 4vw 0 0 0 ;
+section.video {
+    display: flex;
+    margin: 3vw 0 0 0;
+    justify-content: center;
+    background-color: black;
+    padding: 4vw;
 }
-section.reducao h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    background-color: #FFD700;
-    width: 25%;
-    border-radius: 15vw;
-    margin: 0 auto;
+section.video h1 {
+    font-size: 2rem;
+    padding: 0 5vw 0 0;
+    line-height: 2.5vw;
+    margin: 5vw 0 0 ;
 }
-section.reducao p {
-    text-align: center;
-    margin: 1vw 0 3vw 0;
-}
-section.reducao ul {
-    margin: 2vw 0 2vw 6vw; 
+
+
+section.video2 {
+    display: flex;
+    padding: 4vw;
+    justify-content: center;
     background-color: gray;
-    border-radius: 3vw;
-    padding: 30px;
-    width: 50%;
 }
-section.reducao ul li {
-    margin: 1vw 0 0 0;
-    
+section.video2 h1 {
+    font-size: 2rem;
+    line-height: 2.5vw;
+    margin: 5vw 0 0 0 ;
 }
+section.video2 p {
+    padding: 0 5vw 0 0;
+}
+
+
+
+section.baixo h1 {
+    margin: 3vw 0 0 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
 
