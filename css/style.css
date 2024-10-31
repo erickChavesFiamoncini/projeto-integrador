@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -126,7 +126,7 @@ section.slider {
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 30%;
+    margin-top: 32%;
     display: flex;
     justify-content: center;
 }
@@ -148,13 +148,13 @@ section.slider {
     background-color:#FFFFFF;
 }
 #radio1:checked ~ .primeiro {
-    margin-left: 0%;   
+    margin-left: 0%;
 }
 #radio2:checked ~ .primeiro {
-    margin-left: -25%;   
+    margin-left: -25%;
 }
 #radio3:checked ~ .primeiro {
-    margin-left: -50%;   
+    margin-left: -50%;
 }
 @media screen and (max-width: 900px){
     .slide cardmD {
@@ -170,9 +170,13 @@ section.slider {
 =======================================================================*/
 
 .sexo {
+    text-align: center;
     display: flex;
-    padding: 3vw 0vw 3vw 5vw;
     border-bottom: #9dcd5a solid;
+}
+
+.gender {
+  max-width: 30%;
 }
 
 .bult {
@@ -192,12 +196,13 @@ section.slider {
     margin-bottom: 10px;
 }
 
+.sexo {
+  margin-top: 5vw;
+}
+
 .sexo h2 {
     font-weight: bold;
     font-size: 1.5rem;
-}
-.sexo .gender {
-    padding: 0 5vw 0 0;
 }
 section.sexo div.masc button {
     background: #FFFFFF;
@@ -238,14 +243,21 @@ section.sexo div.masc button:hover {
     margin: 0 5vw;
 }
 
-.selecionado {
-    color: red;
+
+.selecionado, .selecionado button, .selecionado span{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
 }
 
 .resultado {
-    width: 300px;
+    width: 250px;
     height: 300px;
-    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15%;
 }
 
 .bult button {
@@ -261,6 +273,13 @@ section.sexo div.masc button:hover {
 
 .bult span{
     color: #9dcd5a !important;
+}
+
+.masc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5vw;
 }
 
 .sexo .final button {
@@ -366,4 +385,3 @@ footer {
     margin: 5px 0;
 
 }
-
