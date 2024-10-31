@@ -278,7 +278,7 @@ section.video {
     padding: 4vw;
 }
 section.video h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 0 5vw 0 0;
     line-height: 2.5vw;
     margin: 5vw 0 0 ;
@@ -292,8 +292,8 @@ section.video2 {
     background-color: gray;
 }
 section.video2 h1 {
-    font-size: 2.5rem;
-    line-height: 3vw;
+    font-size: 3rem;
+    line-height: 2vw;
     margin: 5vw 0 0 0 ;
 }
 section.video2 p {
