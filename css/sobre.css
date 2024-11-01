@@ -98,10 +98,10 @@ header div.divPrincipal div.image a{
 =======================================================================*/
 section h1{
     margin: 6vw 0 0 0;
-    color: black;
+    color: white;
     font-size: 3rem;
     text-align: center;
-    text-decoration: black overline;
+    text-decoration: white overline;
 }
 section div.h1{
     background-color: #363636;
