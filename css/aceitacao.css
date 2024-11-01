@@ -94,7 +94,7 @@ header div.divPrincipal div.image a{
                                 MAIN
 =======================================================================*/
 section.banner{
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../src/premium_photo-1692286251735-ebea26e68a52\(1\).png) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../src/aceitacaobanner.jpg) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
     background-size: 100% 100%, center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,6 +104,7 @@ main section.banner div.texto {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    animation: fadeIn 3s ease-in-out;
     /*padding: 0 0 0 0;
     margin: ;
     border-radius: 2rem;*/
@@ -125,14 +126,20 @@ main section.banner div.texto ul {
 }
 main section.banner div.texto ul li {
     margin: 0 0 1vw 0;
+    animation: fadeIn 3s ease-in-out;
 }
 main section.banner div.texto ul li.titulo {
     font-size: 3.5rem;
     color: white;
+    animation: fadeIn 3s ease-in-out;
 }
 main section.banner div.texto ul li.paragrafo {
     font-size: 1.8rem;;
     color: white;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
 
  
@@ -358,4 +365,3 @@ footer {
     margin: 5px 0;
 
 }
-
