@@ -220,7 +220,7 @@ section div.objetivo div ul li p{
     margin-left: -149.9px;
     display: flex;
     justify-content: center;
-    
+    transition: 3s;
   }
   .manual-btn{
     border: 2px solid white;
