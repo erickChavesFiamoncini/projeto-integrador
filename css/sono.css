@@ -269,54 +269,41 @@ section.pequenos div {
   line-height: 1.4vw;
 }
 section.pequenos div.um i{
-    padding:  0  0 0.9vw 0;
-    font-size: 2rem;
+    padding:  0  0 1.2vw 0;
+    font-size: 4rem;
 }
 section.pequenos div.um h2{
-    font-size: 1.4rem;
-    margin: 0 0 1vw 0;
+    font-size: 1.7rem;
+    margin: 0 0 1.5vw 0;
 }
 section.pequenos div.um p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 section.pequenos div.dois i{
-    padding:  0  0 0.9vw 0;
-    font-size: 2rem;
+    padding:  0  0 1.2vw 0;
+    font-size: 4rem;
 }
 section.pequenos div.dois h2{
-    font-size: 1.4rem;
-    margin: 0 0 1vw 0;
+    font-size: 1.7rem;
+    margin: 0 0 1.5vw 0;
 }
 section.pequenos div.dois p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 section.pequenos div.tres i{
-    padding:  0  0 0.9vw 0;
-    font-size: 2rem;
+    padding:  0  0 1.2vw 0;
+    font-size: 4rem;
 }
 section.pequenos div.tres h2{
-    font-size: 1.4rem;
-    margin: 0 0 1vw 0;
+    font-size: 1.7rem;
+    margin: 0 0 1.5vw 0;
 }
 section.pequenos div.tres p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
-section.corpo ul{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-section.corpo ul li.lado {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    font-size: 1.5rem;
-}
-.lado h3{
-    text-align: center;
-}
+
+
+/*                           CORPO                     */
 section.corpo div h2{
     text-align: center;
     font-size: 3rem;
@@ -331,66 +318,66 @@ section.corpo div p.legenda{
 
 
 }
-section.corpo div.quatro div{
+section.corpo div.maior {
     display: flex;
-    margin: 4vw 0 0 0;
+    margin: 5vw 5vw 0vw 14vw;
+}   
+section.corpo div.maior div.rico {
+    margin: 0 0 0 4vw;
 }
-section.corpo div.quatro div.maior div.img img{
-    margin: 10vw 0 0 7.5vw;
-    border-radius: 20px;
+section.corpo div.maior div.rico ul li {
+    margin: 2.1vw 0 5vw 0;
+}
+section.corpo div.maior div.rico ul li p {
+    padding: 1vw 10vw 0 0 ;
+    font-size: 1.5rem;
+}
+section.corpo div.maior div.rico ul li span {
+    font-size: 2.1rem;
+    margin: 0 0 2vw 0;
+    color: #60a8fa;
+
+}
+section.corpo img {
+    border-radius: 1.8vw;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
-    
 }
 
-section.corpo div ul li p.texto{
-    margin: 1vw;
-}
-section.corpo  div.quatro h3 {
-    font-size: 2rem;
-    margin: 3vw 0 0 0;
-    color: #4c8cd6;
-    text-align: left !important; 
-}
-section.corpo h3 span{
-    display: flex;
-    justify-content: left !important;
-    margin: 0 13vw 0 0;
-}
-section.corpo ul li p.texto{
-    font-size: 1.7rem;
-    color: white;
-}
-section.curiosidades ul li h2{
-    text-align: center;
-    font-size: 3rem;
-    margin: 5vw;
-
-}
-section.curiosidades span{
-    font-size: 2rem;
-    color: #4c8cd6;
-}
-section.curiosidades ul li p{
-    font-size: 1.5rem;
-    margin: 2vw 0 3vw 0;
-    width: 50%;
-}
-section.curiosidades ul li p.texto{
-    font-size: 1.5rem;
-    color: white;
-}
+/*                           CURIOSIDADES              */    
 
 section.curiosidades h2{
     text-align: center;
     font-size: 3rem;
-    margin: 2vw 0 0 0;
+    margin: 0 0 5vw 0;
+    text-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5) ;
 }
-section.curiosidades div{
+section.curiosidades div.maior {
     display: flex;
-    margin: 3vw 0 0 3vw;
+    text-align: center;
+    margin: 5vw 4vw 5vw 5vw;
 }
-section.curiosidades img{
-    margin: 15vw 7vw 0 0;
-    border-radius: 20px;
+section.curiosidades ul li {
+    padding: 0 13vw 0 0;
+    margin: 0 0 0 0;
+}
+section.curiosidades ul li p {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin: 0 0 1vw 0;
+    text-align: left;
+}
+section.curiosidades ul li span {
+    color: #60a8fa;
+    font-size: 2.1rem;
+}
+section.curiosidades div img {
+    border-radius: 1.8vw;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+    margin: 3vw 6vw 0 0;
+}
+section.curiosidades div.img {
+    padding: 0 5vw 0 0;
+}
+section.curiosidades div.mar {
+    padding: 0 0 0 0;
 }
