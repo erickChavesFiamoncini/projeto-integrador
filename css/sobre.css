@@ -119,7 +119,7 @@ section div.conteudo div img{
     width: 430px;
     height: 430px;
     border: black 5px dashed;
-    margin: 0 0 0 12vw; 
+    margin: 0 0 3vw 12vw; 
 }
 section div.conteudo div ul{
     margin: 3vw 0 1.5vw 3vw;    
@@ -171,54 +171,232 @@ section div.objetivo div ul li p{
 /*======================================================================
                                 Main - Parte 4
 =======================================================================*/
-section.integrantes{
-    display: flex;
-    margin: 5vw 0 0vw 0vw;
-}
-.foto {
-    position: relative; /* Permite que o texto seja posicionado em relação a essa div */
-    width: 100%; /* Ocupa toda a largura da tela */
-    height: 400px; /* Altura da div */
-  }
-  
-  /* Estilos da imagem */
-  .foto img {
-    width: 100%; /* A imagem ocupa 100% da largura da div */
-    height: 100%; /* A imagem ocupa 100% da altura da div */
-    object-fit: cover; /* A imagem será redimensionada para cobrir toda a div */
-  }
-  
-  .texto {
-    position: absolute; /* Posiciona o texto em relação à div */
-    top: 85%; /* Centraliza verticalmente */
-    left: 60%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta o posicionamento para centralizar o texto exato */
-    color: white; /* Cor do texto */
-    font-size: 24px; /* Tamanho da fonte *
-    font-weight: bold; /* Peso da fonte */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto, para maior legibilidade */
-    text-align: center; /* Alinha o texto ao centro */
-  }
-  section.integrantes div.foto div.texto{
-    display: flex;
-    align-items: center;
-  }
-  section.integrantes div.foto a.insta{
-    font-size: 1.4rem;
+.family{
     background-color: #363636;
-    border-radius: 60px;
-    padding: 9px 10px 8px 10px;
-    margin: 0 0 0 1.7vw;
+    padding: 1.5vw 0 1.5vw 0;
+
+}
+.slider{
+    margin: 0vw auto 0vw auto;
+    text-align: center;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+  }
+  .integrantes{
+    width: 400%;
+    height: 400px;
+    display: flex;
+    transition: 3s;
+  }
+  
+  .integrantes input{
+    display: none;
+  }
+  
+  .imagens{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+  }
+  .imagens img{
+    width: 500px;
+    
+  }
+  .capa{
+    width: 25%;
+    position: relative;
+  }
+  .capa img{
+    width: 500px;
     
   }
   
-
-
-
-
-
-
-
+  .manual-navegacao{
+    position: absolute;
+    width: 800px;
+    margin-top: -370px;
+    margin-left: -149.9px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 20px;
+  }
+  
+  .manual-btn:hover{
+    background-color: #FFFFFF;
+  }
+  
+  #capa:checked ~ .first{
+    margin-left: 0;
+  }
+  #radio1:checked ~ .first{
+    margin-left: -25%;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -50%;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -75%;
+  }
+  #radio4:checked ~ .first{
+    margin-left: -100%;
+  }
+  #radio5:checked ~ .first{
+    margin-left: -125%;
+  }
+  #radio6:checked ~ .first{
+    margin-left: -150%;
+  }
+  #radio7:checked ~ .first{
+    margin-left: -175%;
+  }
+  
+  
+  .navegacao-auto div{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .navegacao-auto{
+    position: absolute;
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .navegacao-auto div:not(:last-child){
+    margin-right: 20px;
+  }
+  
+  #capa:checked ~ .navegacao-auto .auto-btnCapa{
+    background-color: #FFFFFF;
+  }
+  #radio1:checked ~ .navegacao-auto .auto-btn1{
+    background-color: #FFFFFF;
+  }
+  #radio2:checked ~ .navegacao-auto .auto-btn2{
+    background-color: #FFFFFF;
+  }
+  #radio3:checked ~ .navegacao-auto .auto-btn3{
+    background-color: #FFFFFF;
+  }
+  #radio4:checked ~ .navegacao-auto .auto-btn4{
+    background-color: #FFFFFF;
+  }
+  #radio5:checked ~ .navegacao-auto .auto-btn5{
+    background-color: #FFFFFF;
+  }
+  #radio6:checked ~ .navegacao-auto .auto-btn6{
+    background-color: #FFFFFF;
+  }
+  #radio7:checked ~ .navegacao-auto .auto-btn7{
+    background-color: #FFFFFF;
+  }
+  
+  .capa{
+    position: relative; 
+  }
+  
+  .first{
+    position: relative; 
+  }
+  .capa div.texto{
+    align-items: center;
+    margin-top: -135%;
+    padding: 0px 2.75vw 0px 0;
+  
+    position: absolute; 
+    top: 191%; 
+    left: 55.5%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 40px; 
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    width: 100%;
+    opacity: 90%;
+  }
+  .capa div.texto p{
+    padding: 12px 0px;
+    background-color: #363636;
+  }
+  .first div.texto{
+    
+    align-items: center;
+    margin-top: -65%;
+    padding: 0 3vw 0 0;
+  
+    position: absolute; 
+    top: 191%; 
+    left: 59.5%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    width: 100%;
+    
+  }
+  .first a.insta{
+    font-size: 1.4rem;
+    background-color: #363636;
+    border-radius: 60px;
+    padding: 7px 10px 7px 10px;
+    margin: 0vw 1.7vw 0 0vw;
+    color: #FFFFFF;
+    line-height: 65px;
+    
+  }
+  .first div.texto p{
+    margin: 0 5vw 0 3vw;
+  }
+  
+  
+  div.integrantes div.imagens div.texto{
+    line-height: 45px;
+    align-items: center;
+    margin-top: -65%;
+    padding: 0 3vw 0 0;
+  
+    position: absolute; 
+    top: 191%; 
+    left: 59.5%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    width: 100%;
+  }
+  div.integrantes div.imagens a.insta{
+    font-size: 1.4rem;
+    background-color: #363636;
+    border-radius: 60px;
+    padding: 7px 10px 7px 10px;
+    margin: 2vw 1.7vw 0 0vw;
+    color: #FFFFFF;
+    
+  }
+  div.integrantes div.imagens div.texto p{
+    margin: 0 5vw 0 3vw;
+  }
 
 /*======================================================================
                                 Slide
