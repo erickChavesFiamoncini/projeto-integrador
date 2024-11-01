@@ -222,19 +222,20 @@ section{
    
 }
 section.banner{
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../src/talvez-sepe-2.png) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
-    background-size: 100% 100%, top;
-    background-position: top;
-    padding: 16vw;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url( https://cdn.pixabay.com/photo/2023/01/14/01/20/child-7717305_960_720.png
+    ) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
+    padding: 17vw;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: under;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+
    
    
 }
 section.banner h1{
-    font-size: 3.5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     animation: fadeIn 3s ease-in-out;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -305,12 +306,13 @@ section.corpo ul{
     flex-direction: column;
     align-items: end;
 }
-section.corpo ul li.lado{
+section.corpo ul li.lado {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: end;
+    font-size: 1.5rem;
 }
 .lado h3{
     text-align: center;
@@ -323,22 +325,38 @@ section.corpo div h2{
 }
 section.corpo div p.legenda{
     font-size: 1.7rem;
-    color: #d8dfff;
+    color: white;
     text-align: center;
+    padding: 0 15vw 0 15vw;
 
 
+}
+section.corpo div.quatro div{
+    display: flex;
+    margin: 4vw 0 0 0;
+}
+section.corpo div.quatro div.maior div.img img{
+    margin: 2vw 0 0 10vw;
+    border-radius: 20px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
 }
 section.corpo div ul li p.texto{
     margin:1vw;
 }
 section.corpo  div.quatro h3 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: 3vw 0 0 0;
     color: #4c8cd6;
+    text-align: left !important; 
+}
+section.corpo h3 span{
+    display: flex;
+    justify-content: left !important;
+    margin: 0 13vw 0 0;
 }
 section.corpo ul li p.texto{
-    font-size: 1.4rem;
-    color: #bdd6e4;
+    font-size: 1.7rem;
+    color: white;
 }
 section.curiosidades ul li h2{
     text-align: center;
@@ -346,16 +364,31 @@ section.curiosidades ul li h2{
     margin: 5vw;
 
 }
-section.curiosidades ul li span{
-    font-size: 1.7rem;
+section.curiosidades span{
+    font-size: 2rem;
+    color: #4c8cd6;
 }
 section.curiosidades ul li p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 2vw 0 3vw 0;
     width: 50%;
-    text-align: right;
 }
 section.curiosidades ul li p.texto{
-    font-size: 1.4rem;
-    color: #bdd6e4;
+    font-size: 1.5rem;
+    color: white;
+}
+
+section.curiosidades h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2vw 0 0 0;
+}
+section.curiosidades div{
+    display: flex;
+    margin: 3vw 0 0 3vw;
+}
+section.curiosidades img{
+    margin: 7vw 7vw 0 0;
+    border-radius: 20px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
 }
