@@ -447,11 +447,11 @@ section div.objetivo div ul li p {
 .capa div.texto {
   align-items: center;
   margin-top: -135%;
-  padding: 0px 2.75vw 0px 0;
+  padding: 0px 2.7vw 0px 0;
 
   position: absolute;
   top: 191%;
-  left: 55.5%;
+  left: 55.3%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 40px;
@@ -533,6 +533,7 @@ div.integrantes div.imagens a.insta {
 div.integrantes div.imagens div.texto p {
   margin: 0 5vw 0 3vw;
 }
+
 
 /*======================================================================
                                 Slide
