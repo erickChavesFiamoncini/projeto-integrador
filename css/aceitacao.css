@@ -4,19 +4,87 @@
 */
 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -24,25 +92,44 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
     list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -56,10 +143,12 @@ table {
 html {
     background-color: rgb(255, 255, 255);
 }
+
 a {
     text-decoration: none;
     color: white;
 }
+
 /*======================================================================
                                 Topo
 =======================================================================*/
@@ -73,33 +162,40 @@ header {
     z-index: 1000;
     height: 80px;
 }
+
 header div.divPrincipal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 header div.divDois ul li {
     margin: 0;
     padding: 0 35px;
 }
-header div.divDois ul{
+
+header div.divDois ul {
     display: flex;
 }
-header div.divPrincipal div.image a{
+
+header div.divPrincipal div.image a {
     margin: 15px 0 15px 35px;
     font-size: 1.9rem;
 }
+
 /*======================================================================
                                 MAIN
 =======================================================================*/
-section.banner{
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../src/aceitacaobanner.jpg) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
+section.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../src/aceitacaobanner.jpg) no-repeat center center;
+    /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
     background-size: 100% 100%, center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
+
 main section.banner div.texto {
     display: flex;
     flex-direction: column;
@@ -109,40 +205,55 @@ main section.banner div.texto {
     margin: ;
     border-radius: 2rem;*/
 }
+
 main section.banner div.texto p.teste {
     margin: 9vw 0 0 0;
 }
+
 main section.banner div.texto p.teste2 {
     margin: 0 0 7vw 0;
 }
+
 main section.banner div.texto ul {
     /*background-color:  linear-gradient(rgba(0,0,0,0,2), rgba(0,0,0,0.5)), color black;*/
     background-color: black;
     align-items: left !important;
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;
-    margin: 0 auto 0 0 ;
+    margin: 0 auto 0 0;
     padding: 2vw 10vw 2vw 2vw;
 }
+
 main section.banner div.texto ul li {
     margin: 0 0 1vw 0;
     animation: fadeIn 3s ease-in-out;
 }
+
 main section.banner div.texto ul li.titulo {
     font-size: 3.5rem;
     color: white;
     animation: fadeIn 3s ease-in-out;
 }
+
 main section.banner div.texto ul li.paragrafo {
-    font-size: 1.8rem;;
+    font-size: 1.8rem;
+    ;
     color: white;
 }
+
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateX(-20px); }
-    100% { opacity: 1; transform: translateY(0); }
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
- 
+
 /*======================================================================
                                 MAIN LEGENDA
 =======================================================================*/
@@ -150,52 +261,62 @@ main section.legenda {
     padding: 4vw;
     text-align: center;
 }
+
 main section.legenda div h2 {
     margin: 1vw 0 1.8vw 0;
     font-size: 2.5rem;
 }
+
 main section.legenda div p {
     font-size: 2.1rem;
     color: #2e2e2c;
     /*color: #EF3F6E;*/
 }
+
 /*======================================================================
                                 MAIN VIDEO
 =======================================================================*/
 main section.video {
     margin: 4rem 0 0 0;
     background-color: #2e2e2c;
-   /* border-radius: 2vw;*/
+    /* border-radius: 2vw;*/
 }
+
 main section.video div.interior div.texto {
     padding: 2rem;
     text-align: center;
     align-items: center;
     margin: 0 0 6vw 0;
 }
+
 main section.video div.interior div.texto h2 {
     font-size: 2.5rem;
     margin: 3vw 0 1vw 0;
     color: white;
 }
+
 main section.video div.interior div.texto p {
     font-size: 2.0rem;
     color: rgb(204, 201, 201);
 }
+
 main section.video div.interior div.videos {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
 }
+
 main section.video div.interior div.videos p {
     margin: 0 4vw 10rem 4vw;
 }
+
 /*======================================================================
                                 MAIN MOTIVAÇÃO
 =======================================================================*/
 main section.motivacionais div.principal {
     padding: 5vw;
 }
+
 main section.motivacionais div.incentivo {
     display: flex;
     justify-content: space-between;
@@ -204,32 +325,39 @@ main section.motivacionais div.incentivo {
     background-color: #ad9e8b;
     border-radius: 3vw;
 }
+
 main section.motivacionais div.incentivo div {
     margin: 1vw;
 }
+
 main section.motivacionais div.incentivo div h2 {
     text-align: center;
     font-size: 2.6rem;
     color: white;
     line-height: 4rem;
 }
+
 main section.motivacionais div.incentivo div p img {
     width: 40rem;
     border-radius: 2.4vw;
 }
+
 main section.motivacionais div.frases {
     background-color: #eaded2;
     padding: 5vw;
 }
+
 main section.motivacionais div.frase1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2vw 5vw 2vw 5vw;
 }
+
 main section.motivacionais div.frase1 {
     margin: 1vw;
 }
+
 main section.motivacionais div.frase1 h2 {
     text-align: center;
     font-size: 2.1rem;
@@ -237,19 +365,23 @@ main section.motivacionais div.frase1 h2 {
     line-height: 4.2rem;
     padding: 0 0 0 5vw;
 }
+
 main section.motivacionais div.frase1 p img {
     width: 35rem;
     border-radius: 2.4vw;
 }
+
 main section.motivacionais div.frase2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2vw 5vw 2vw 5vw;
 }
+
 main section.motivacionais div.frase2 {
     margin: 1vw;
 }
+
 main section.motivacionais div.frase2 h2 {
     text-align: center;
     font-size: 2.1rem;
@@ -257,19 +389,23 @@ main section.motivacionais div.frase2 h2 {
     line-height: 4.2rem;
     padding: 0 5vw 0 0;
 }
+
 main section.motivacionais div.frase2 p img {
     width: 35rem;
     border-radius: 2.4vw;
 }
+
 main section.motivacionais div.frase3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2vw 5vw 2vw 5vw;
 }
+
 main section.motivacionais div.frase3 {
     margin: 1vw;
 }
+
 main section.motivacionais div.frase3 h2 {
     text-align: center;
     font-size: 2.1rem;
@@ -277,10 +413,12 @@ main section.motivacionais div.frase3 h2 {
     line-height: 4.2rem;
     padding: 0 0 0 5vw;
 }
+
 main section.motivacionais div.frase3 p img {
     width: 35rem;
     border-radius: 2.4vw;
 }
+
 /*======================================================================
                                 FOOTER
 =======================================================================*/
@@ -291,6 +429,7 @@ footer {
     padding: 40px 0;
     font-family: Arial, sans-serif;
 }
+
 .footer-top h2 {
     color: #ad9e8b;
     font-size: 24px;
@@ -323,12 +462,14 @@ footer {
     margin: 0 15px;
     color: #ddd;
     font-size: 24px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 60%;
 }
+
 .footer-icons a.insta {
-    padding: 10px 12px 10px 12px ;
+    padding: 10px 12px 10px 12px;
 }
+
 .footer-icons a.insta:hover {
     background: radial-gradient(circle at 30% 30%, #F58529, #DD2A7B, #8134AF, #515BD4);
     padding: 12px 14px 12px 14px;
@@ -336,13 +477,15 @@ footer {
 }
 
 .footer-icons a.face {
-    padding: 10px 11px 10px 11px ;
+    padding: 10px 11px 10px 11px;
 }
+
 .footer-icons a.face:hover {
     background: radial-gradient(circle at 30% 30%, #3b5998, #4c70ba, #8b9dc3, #dfe3ee);
     padding: 12px 14px 12px 14px;
 
 }
+
 .face i,
 .insta i {
     transition: transform 0.3s ease-in-out;
@@ -354,9 +497,17 @@ footer {
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .footer-botao p {
@@ -365,4 +516,3 @@ footer {
     margin: 5px 0;
 
 }
-

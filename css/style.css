@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* COMEÇO DO CSS */
@@ -52,17 +139,20 @@ table {
 /*======================================================================
                                 Geral
 =======================================================================*/
-body{
+body {
     margin: 0;
     color: #FFFFFF;
 }
-html{
+
+html {
     background-color: #18181b;
 }
+
 a {
     text-decoration: none;
     color: white;
 }
+
 /*======================================================================
                                 Topo
 =======================================================================*/
@@ -76,23 +166,28 @@ header {
     opacity: 50%;
     height: 80px;
 }
+
 header div.divPrincipal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 header div.divDois ul li {
     margin: 0;
     padding: 0 35px;
 }
-header div.divDois ul{
+
+header div.divDois ul {
     display: flex;
 }
-header div.divPrincipal div.image a{
+
+header div.divPrincipal div.image a {
     margin: 15px 0 15px 35px;
     font-size: 1.9rem;
 }
+
 /*======================================================================
                                 Slide
 =======================================================================*/
@@ -104,15 +199,18 @@ section.slider {
     padding: 0 !important;
     overflow: hidden;
 }
+
 .slider-content {
     width: 400%;
     height: auto;
     display: flex;
 }
+
 .slider-content input {
     display: none;
     margin: 78rem;
 }
+
 .slide-box {
     width: 25%;
     height: auto;
@@ -120,17 +218,22 @@ section.slider {
     text-align: center;
     transition: 1s;
 }
+
 .slide-box img {
     width: 100%;
 }
-.nav-manual, .nav-auto{
+
+.nav-manual,
+.nav-auto {
     position: absolute;
     width: 100%;
     margin-top: 32%;
     display: flex;
     justify-content: center;
 }
-.nav-manual .manual-btn, .nav-auto div{
+
+.nav-manual .manual-btn,
+.nav-auto div {
     border: 1px solid #FFFFFF;
     padding: 10px;
     margin: 4vw 10px 0;
@@ -138,29 +241,40 @@ section.slider {
     cursor: pointer;
     transition: 0.5s;
 }
+
 .nav-manual .manual-btn:not(:last-child) .nav-auto div:not(:last-child) {
     margin-right: 10px;
 }
+
 .nav-manual .manual-btn:hover {
     background-color: #FFFFFF;
 }
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color:#FFFFFF;
+
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: #FFFFFF;
 }
-#radio1:checked ~ .primeiro {
+
+#radio1:checked~.primeiro {
     margin-left: 0%;
 }
-#radio2:checked ~ .primeiro {
+
+#radio2:checked~.primeiro {
     margin-left: -25%;
 }
-#radio3:checked ~ .primeiro {
+
+#radio3:checked~.primeiro {
     margin-left: -50%;
 }
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 900px) {
     .slide cardmD {
         display: none;
     }
-    .nav-auto, .nav-manual {
+
+    .nav-auto,
+    .nav-manual {
         margin-top: 60%;
     }
 }
@@ -174,7 +288,7 @@ section.slider {
     display: flex;
 }
 .gender {
-  max-width: 30%;
+    max-width: 30%;
 }
 
 .bult {
@@ -195,16 +309,17 @@ section.slider {
 }
 
 .sexo {
-  margin-top: 5vw;
+    margin-top: 5vw;
 }
 
 .sexo h2 {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 section.sexo div.masc button {
     background: #FFFFFF;
-    color:#9dcd5a;
+    color: #9dcd5a;
     border-radius: 20px;
     border-style: inherit;
     margin: 1vw 0.5vw 1vw 0vw;
@@ -212,11 +327,14 @@ section.sexo div.masc button {
     font-size: 7rem;
     cursor: pointer;
 }
+
 section.sexo div.masc button:hover {
-    background-color:#9dcd5a;;
+    background-color: #9dcd5a;
+    ;
     color: #FFFFFF;
     transition: 1s;
 }
+
 .sexo .perguntas button {
     background-color: white;
     color: #9dcd5a;
@@ -229,20 +347,25 @@ section.sexo div.masc button:hover {
     cursor: pointer;
     text-align: right;
 }
+
 .sexo .perguntas button span {
     padding: 3px 10px 0 0;
 }
+
 .sexo .perguntas button:hover {
     background-color: #9dcd5a;
     color: white;
     transition: 1s;
 }
+
 .sexo .emen {
     margin: 0 5vw;
 }
 
 
-.selecionado, .selecionado button, .selecionado span{
+.selecionado,
+.selecionado button,
+.selecionado span {
     color: rgb(0, 0, 0) !important;
     font-weight: bold;
 }
@@ -263,13 +386,15 @@ section.sexo div.masc button:hover {
     border: none;
 }
 
-.bult:hover, .bult:hover span, .bult:hover > button{
+.bult:hover,
+.bult:hover span,
+.bult:hover>button {
     background-color: #9dcd5a;
     color: white !important;
     transition: 1s;
 }
 
-.bult span{
+.bult span {
     color: #9dcd5a !important;
 }
 
@@ -292,8 +417,9 @@ section.sexo div.masc button:hover {
     cursor: pointer;
     margin: 5vw 5vw 0 0;
 }
+
 .sexo .final button:hover {
-    background-color:  #9dcd5a;
+    background-color: #9dcd5a;
     color: white;
     transition: 1s;
 }
@@ -309,6 +435,7 @@ footer {
     padding: 40px 0;
     font-family: Arial, sans-serif;
 }
+
 .footer-top h2 {
     color: green;
     font-size: 24px;
@@ -341,12 +468,14 @@ footer {
     margin: 0 15px;
     color: #ddd;
     font-size: 24px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 60%;
 }
+
 .footer-icons a.insta {
-    padding: 10px 12px 10px 12px ;
+    padding: 10px 12px 10px 12px;
 }
+
 .footer-icons a.insta:hover {
     background: radial-gradient(circle at 30% 30%, #F58529, #DD2A7B, #8134AF, #515BD4);
     padding: 12px 14px 12px 14px;
@@ -354,13 +483,15 @@ footer {
 }
 
 .footer-icons a.face {
-    padding: 10px 11px 10px 11px ;
+    padding: 10px 11px 10px 11px;
 }
+
 .footer-icons a.face:hover {
     background: radial-gradient(circle at 30% 30%, #3b5998, #4c70ba, #8b9dc3, #dfe3ee);
     padding: 12px 14px 12px 14px;
 
 }
+
 .face i,
 .insta i {
     transition: transform 0.3s ease-in-out;
@@ -372,9 +503,17 @@ footer {
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .footer-botao p {

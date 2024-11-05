@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
     event.preventDefault();
 
     const weight = document.getElementById('weight').value;
@@ -37,6 +37,6 @@ form.addEventListener('submit', function(event) {
     }
 
 
-    value.textContent = bmi.replace('.',',');
+    value.textContent = bmi.replace('.', ',');
     document.getElementById('description').textContent = description;
 });
