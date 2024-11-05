@@ -172,9 +172,7 @@ section.slider {
 .sexo {
     text-align: center;
     display: flex;
-    border-bottom: #9dcd5a solid;
 }
-
 .gender {
   max-width: 30%;
 }
