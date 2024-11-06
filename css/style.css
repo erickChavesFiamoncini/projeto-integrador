@@ -227,7 +227,7 @@ section.slider {
 .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 32%;
+    margin-top: 30.5vw;
     display: flex;
     justify-content: center;
 }
@@ -424,6 +424,22 @@ section.sexo div.masc button:hover {
     transition: 1s;
 }
 
+.slider-content div a button {
+    background-color: white;
+    border: #9dcd5a solid 1px;
+    color: #9dcd5a;
+    cursor: pointer;
+    border-radius: 1vw;
+    padding: 5px;
+    margin: 5vw;
+}
+
+.slider-content div a button:hover {
+    background-color: white;
+    border: #9dcd5a solid 1px;
+    color: #9dcd5a;
+    transition: 1s;
+}
 /*======================================================================
                                 Footer
 =======================================================================*/
