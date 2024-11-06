@@ -220,7 +220,22 @@ section.slider {
 }
 
 .slide-box img {
-    width: 100%;
+    width: 100%;    
+    cursor: pointer;
+}
+
+.slide-box img:hover {
+    mix-blend-mode: color-dodge;
+}
+
+.blur {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.104);
+}
+
+.blur:hover {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8128501400560224) 0%, rgba(255,255,255,0) 60%);   
 }
 
 .nav-manual,
@@ -265,7 +280,7 @@ section.slider {
 }
 
 #radio3:checked~.primeiro {
-    margin-left: -50%;
+    margin-left: -50%;      
 }
 
 @media screen and (max-width: 900px) {
@@ -287,6 +302,7 @@ section.slider {
     text-align: center;
     display: flex;
 }
+
 .gender {
     max-width: 30%;
 }
@@ -424,6 +440,10 @@ section.sexo div.masc button:hover {
     transition: 1s;
 }
 
+.clicado {
+    color: black;
+}
+
 .slider-content div a button {
     background-color: white;
     border: #9dcd5a solid 1px;
@@ -440,6 +460,7 @@ section.sexo div.masc button:hover {
     color: #9dcd5a;
     transition: 1s;
 }
+
 /*======================================================================
                                 Footer
 =======================================================================*/

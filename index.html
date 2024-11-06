@@ -51,22 +51,33 @@
                 <!--Fim Radio Buttons-->
 
                 <div class="slide-box primeiro">
-                    <img class="slide cardmD" src="./src/comidasaoredordomundo.png" alt="Comidas ao redor do mundo">
-                    <a href="https://recreio.com.br/noticias/mapa-mundi/como-sao-os-habitos-alimentares-das-pessoas-ao-redor-do-mundo.phtml"><button>Saiba mais!</button>
-                    </a>
+                    <div class="blur">
+                        <a
+                            href="https://recreio.com.br/noticias/mapa-mundi/como-sao-os-habitos-alimentares-das-pessoas-ao-redor-do-mundo.phtml">
+                            <img class="slide cardmD" src="./src/comidasaoredordomundo.png"
+                                alt="Comidas ao redor do mundo">
+                            </a>
+                    </div>
                 </div>
 
                 <div class="slide-box">
-                    <img class="slide cdcaD" src="./src/comidasdecivilizaçõesantigas.png"
-                        alt="Comidas de civilizações antigas">
-                        <a href="https://obshistoricogeo.blogspot.com/2014/09/a-gastronomia-nas-civilizacoes-antigas.html"><button>Saiba mais!</button>
+                    <div class="blur">
+                        <a
+                            href="https://obshistoricogeo.blogspot.com/2014/09/a-gastronomia-nas-civilizacoes-antigas.html">
+                            <img class="slide cdcaD" src="./src/comidasdecivilizaçõesantigas.png"
+                                alt="Comidas de civilizações antigas">
+                            </a>
+                    </div>
+
+                </div>
+
+                <div class="slide-box">
+                    <div class="blur">
+                        <a
+                            href="https://receitasmondial.com.br/?gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZdIvQVTSeAUTKQX9awrrmFr_276JKcPZbxFsf07z-Mf7Xeo0HDOLQ4aAu9SEALw_wcB">
+                            <img class="slide rD" src="./src/receitas.png" alt="Receitas">
                         </a>
-                </div>
-
-                <div class="slide-box">
-                    <img class="slide rD" src="./src/receitas.png" alt="Receitas">
-                    <a href="https://receitasmondial.com.br/?gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZdIvQVTSeAUTKQX9awrrmFr_276JKcPZbxFsf07z-Mf7Xeo0HDOLQ4aAu9SEALw_wcB"><button>Saiba mais!</button>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="nav-auto">
@@ -96,16 +107,16 @@
                 <h2>Doenças e Intolerâncias</h2>
                 <ul>
                     <li>
-                        <button><span class="fa-solid fa-magnifying-glass"></span>Intolerância a lactose</button>
+                        <button class="condicao" id="lactose"><span class="fa-solid fa-magnifying-glass "></span>Intolerância a lactose</button>
                     </li>
                     <li>
-                        <button><span class="fa-solid fa-magnifying-glass"></span>Alergia a amêndoas</button>
+                        <button class="condicao" id="amendoa"><span class="fa-solid fa-magnifying-glass"></span>Alergia a amêndoas</button>
                     </li>
                     <li>
-                        <button><span class="fa-solid fa-magnifying-glass"></span>Diabetes</button>
+                        <button class="condicao" id="diabetes"><span class="fa-solid fa-magnifying-glass"></span>Diabetes</button>
                     </li>
                     <li>
-                        <button><span class="fa-solid fa-magnifying-glass"></span>Alergia a frutos do mar</button>
+                        <button class="condicao" id="mar"><span class="fa-solid fa-magnifying-glass"></span>Alergia a frutos do mar</button>
                     </li>
                 </ul>
             </div>
@@ -124,7 +135,7 @@
                 </div>
             </div>
             <div class="final">
-                <button type="submit"><span class="fa-solid fa-check"></span></button>
+                <button type="submit" id="confirmar"><span class="fa-solid fa-check"></span></button>
             </div>
 
             <div class="resultado">
@@ -133,6 +144,10 @@
 
 
         </section>
+
+        <div id="dieta">
+
+        </div>
 
         <!--CALCULADORA-->
         <section id="body">

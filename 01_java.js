@@ -2,15 +2,26 @@ let radio = document.querySelector(`.manual-btn`)
 let opcoes = document.querySelectorAll(`.bult`)
 let sexos = document.querySelectorAll(`.sexoOpcao`)
 let resultado = document.querySelector(`.resultado`)
+let confirmar = document.getElementById('confirmar')
+let condicoes = document.querySelectorAll('.condicao')
+let dietaSelecionada = document.getElementById('dieta')
 let sexoSelecionado = ""
 let opcaoSelecionada = ""
+let condicaoSelecionada = ""
 let cont = 1
+let dietas = [
+    {
+        condicao: 'lactose',
+        opcao: 'engordar',
+        dieta: "lactose dieta"
+    }
+]
 let opcoesDePeso = [
     {
         id: 1,
         genero: "masc",
         tipo: "engordar",
-        imagem: "/src/stickman/fatman.png"
+        imagem: "src/stickman/fatman.png"
     },
     {
         id: 2,
@@ -35,14 +46,30 @@ let opcoesDePeso = [
 document.getElementById(`radio1`).checked = true
 
 document.addEventListener("click", (e) => {
-    if (e.target.classList.contains(`sexoOpcao`) || e.target.parentElement.classList.contains(`sexoOpcao`)) {
+    if ((e.target.classList.contains(`sexoOpcao`) || e.target.parentElement.classList.contains(`sexoOpcao`))) {
         const sexo = e.target.classList.contains(`sexoOpcao`) ? e.target : e.target.parentElement
         selecionarSexo(sexo)
     } else if (e.target.classList.contains(`bult`) || e.target.parentElement.classList.contains(`bult`)) {
         const opcao = e.target.classList.contains(`bult`) ? e.target : e.target.parentElement
         selecionarOpcao(opcao)
+    } else if (e.target.classList.contains('condicao')) {
+        const condicao = e.target
+        selecionarCondicao(condicao)
     }
 })
+
+confirmar.addEventListener('click', trocarDieta())
+
+function selecionarCondicao(condicao) {
+    condicoes.forEach((c) => {
+        c.classList.remove('selecionado')
+    })
+
+    condicao.classList.add('selecionado')
+    condicaoSelecionada = condicao.id
+
+    showDiet()
+}
 
 function selecionarSexo(sexo) {
     sexos.forEach((s) => {
@@ -66,6 +93,11 @@ function selecionarOpcao(opcao) {
         opcaoSelecionada = ""
     }
     showImage()
+}
+
+function showDiet() {
+    const dieta = dietas.find((d) => d.condicao == condicaoSelecionada && d.opcao == opcaoSelecionada)
+    dietaSelecionada.innerHTML = dieta.dieta
 }
 
 function showImage() {
