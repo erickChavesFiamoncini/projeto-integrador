@@ -111,6 +111,20 @@ body {
     line-height: 1;
 }
 
+.container {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}   
+
+.dieta {
+    width: 50%;
+    background-color: #262626;
+    padding: 2%;
+}
+
 ol,
 ul {
     list-style: none;
