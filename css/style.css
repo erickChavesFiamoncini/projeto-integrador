@@ -117,7 +117,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: justify;
-}   
+}
 
 .dieta {
     width: 50%;
@@ -171,21 +171,44 @@ a {
                                 Topo
 =======================================================================*/
 header {
-    background-color: black;
+    background-color: #818b7e;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    opacity: 50%;
-    height: 80px;
+    height: 145px;
+}
+.registro {
+    display: flex;
+    justify-content: right;
+    margin: 0 5vw;
+}
+.login {
+    background-color: white;
+    color: #818b7e;
+    text-align: center;
+}
+header .redesSociais {
+    display: flex;
+    justify-content: left;
+    padding: 0 5vw;
 }
 
-header div.divPrincipal {
+.redesSociais ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+}
+
+.redesSociais ul li {
+    padding: 0 15px 0 0px;
+}
+
+.redesSociais a {
+    font-size: 1.2rem;
+}
+
+.divDois {
+    padding: 5px 0 5px;
 }
 
 header div.divDois ul li {
@@ -193,13 +216,26 @@ header div.divDois ul li {
     padding: 0 35px;
 }
 
+.redes {
+    padding: 5px 0 5px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
 header div.divDois ul {
     display: flex;
 }
 
+header .image {
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
 header div.divPrincipal div.image a {
-    margin: 15px 0 15px 35px;
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 /*======================================================================
@@ -234,7 +270,7 @@ section.slider {
 }
 
 .slide-box img {
-    width: 100%;    
+    width: 100%;
     cursor: pointer;
 }
 
@@ -249,7 +285,7 @@ section.slider {
 
 .blur:hover {
     background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.8128501400560224) 0%, rgba(255,255,255,0) 60%);   
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8128501400560224) 0%, rgba(255, 255, 255, 0) 60%);
 }
 
 .nav-manual,
@@ -294,7 +330,7 @@ section.slider {
 }
 
 #radio3:checked~.primeiro {
-    margin-left: -50%;      
+    margin-left: -50%;
 }
 
 @media screen and (max-width: 900px) {
