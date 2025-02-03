@@ -171,71 +171,31 @@ a {
                                 Topo
 =======================================================================*/
 header {
-    background-color: #818b7e;
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 145px;
+    opacity: 50%;
+    height: 80px;
 }
-.registro {
+header div.divPrincipal {
     display: flex;
-    justify-content: right;
-    margin: 0 5vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
-.login {
-    background-color: white;
-    color: #818b7e;
-    text-align: center;
-}
-header .redesSociais {
-    display: flex;
-    justify-content: left;
-    padding: 0 5vw;
-}
-
-.redesSociais ul {
-    display: flex;
-}
-
-.redesSociais ul li {
-    padding: 0 15px 0 0px;
-}
-
-.redesSociais a {
-    font-size: 1.2rem;
-}
-
-.divDois {
-    padding: 5px 0 5px;
-}
-
 header div.divDois ul li {
     margin: 0;
     padding: 0 35px;
 }
-
-.redes {
-    padding: 5px 0 5px;
-}
-
-header nav {
-    display: flex;
-    justify-content: center;
-}
-
-header div.divDois ul {
+header div.divDois ul{
     display: flex;
 }
-
-header .image {
-    text-align: center;
-    padding: 40px 0 10px 0;
-}
-
-header div.divPrincipal div.image a {
-    font-size: 2rem;
+header div.divPrincipal div.image a{
+    margin: 15px 0 15px 35px;
+    font-size: 1.9rem;
 }
 
 /*======================================================================
