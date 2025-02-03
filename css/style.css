@@ -186,16 +186,30 @@ header div.divPrincipal {
     align-items: center;
     height: 100%;
 }
+
 header div.divDois ul li {
     margin: 0;
-    padding: 0 35px;
+    padding: 0 25px;
+}
+
+.divDois li {
+
 }
 header div.divDois ul{
     display: flex;
 }
 header div.divPrincipal div.image a{
     margin: 15px 0 15px 35px;
-    font-size: 1.9rem;
+    font-size: 1.1rem;
+}
+
+.image {
+    display: flex;
+}
+
+.image h1 {
+    padding: 0px 10px 0;
+    font-size: 1.3rem;
 }
 
 /*======================================================================
@@ -568,4 +582,26 @@ footer {
     font-size: 14px;
     margin: 5px 0;
 
+}
+
+
+
+/* === TESTE === */
+div#traco{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 5px;
+    width: 50px;
+    background: red;
+    /*z-index: 99;*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: left 1s;
+}
+header div.divDois ul{
+    position: relative;
+}
+header div.divDois ul{
+    
 }

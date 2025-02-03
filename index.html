@@ -9,33 +9,29 @@
   <link rel="stylesheet" href="css/responsivo.css">
   <link rel="stylesheet" href="calculadoraIMC/assets/css/styleCalc.css">
   <script src="https://kit.fontawesome.com/17a8c00d17.js" crossorigin="anonymous"></script>
-  <script src="01_java.js" defer type="module"></script>
+ 
 </head>
 
 <body>
   <header>
         <div class="divPrincipal">
 
+            
 
             <div class="image">
                 <a href="index.html" class="fa-solid fa-leaf"></a>
+                <h1>GREEN <br>LIFE</h1>
             </div>
 
-
-            <div class="divDois">
+            <div class="divDois" id="divDois">
                 <nav>
                     <ul>
                         <li>
-                            <a href="sobre.html" class="fa-solid fa-user"></a>
-                        </li>
-                        <li>
-                            <a href="sono.html" class="fa-solid fa-bed"></a>
-                        </li>
-                        <li class="food">
-                            <a href="dieta.html" class="fa-solid fa-bowl-food"></a>
+                            <div id="traco"></div>
+                            <a href="index.html">Home</a>
                         </li>
                         <li class="aceitacao">
-                            <a href="aceitacao.html" class="fa-solid fa-image-portrait"></a>
+                            <a href="aceitacao.html">Calculadora</a>
                         </li>
                     </ul>
                 </nav>
@@ -240,6 +236,25 @@
       <p>© 2024 GREENLIFE. Todos direitos Reservados.</p>
     </div>
   </footer>
+  <script src="01_java.js" defer type="module"></script>
+  <script>
+    /* Deslocamento Menu */
+let elementos = document.getElementById("divDois").querySelectorAll('li');
+console.log("Oi");
+console.log(elementos);
+elementos.forEach((item) => {
+    item.addEventListener('mouseover', function(e){
+      let traco = document.getElementById("traco");
+      let distanciaLi = e.target.offsetLeft;  
+      
+      traco.style.left = distanciaLi + "px";
+
+      /*Teste*/
+      console.log(e.target.parentElement);
+    })
+});
+
+  </script>
 </body>
 <script src="calculadoraIMC/assets/js/script.js"></script>
 
