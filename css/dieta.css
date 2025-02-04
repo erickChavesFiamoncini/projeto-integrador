@@ -57,7 +57,7 @@ body{
     color: #FFFFFF;
 }
 html{
-    background-color:  #3C3C3C;
+    background-color:  #000000;
 }
 a {
     text-decoration: none;
@@ -112,7 +112,7 @@ footer {
     font-family: Arial, sans-serif;
 }
 .footer-top h2 {
-    color: #F58529;
+    color: green;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -131,7 +131,7 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: #F58529;
+    color: green;
 }
 
 
@@ -287,7 +287,7 @@ section.video2 {
     display: flex;
     padding: 4vw;
     justify-content: center;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
 }
 section.video2 h1 {
     font-size: 2.5rem;
@@ -306,14 +306,21 @@ section.baixo h1 {
     font-size: 2rem;
 }
 
-
+/*section mediterraneo*/
+h2{
+    font-size: 2.5rem;
+    line-height: 2vw;
+    margin: 5vw 0 0 0 ;
+    display: flex;
+    justify-content: center;
+}
 
 /*CARD*/
 
 .maincontainer {
     position: relative;
     width: 420px;
-    height: 720px;
+    height: 620px;
   }
 
   .thecard {
@@ -333,7 +340,7 @@ section.baixo h1 {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-color: #000000;
+    background-color: rgb(45, 124, 50);
     color: #333;
     text-align: center;
     border-radius: 25px;
@@ -346,11 +353,11 @@ section.baixo h1 {
 
   .fa-apple-whole{
     font-size: 150px;
-    color: rgb(19, 233, 48);
+    color: rgb(255, 255, 255);
   }
    .fa-burger{
     font-size: 150px;
-    color: rgb(164, 106, 61);
+    color: rgb(255, 255, 255);
    }
 
   .theback {
@@ -358,7 +365,7 @@ section.baixo h1 {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-color: #000000;
+    background-color:  rgb(36, 92, 43);
     color: #fff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -369,7 +376,9 @@ section.baixo h1 {
     transform: rotateY(180deg);
   }
 
-
+.meio{
+    padding: 2vw;
+}
 
 h2.estilo{
     font-style: italic;
