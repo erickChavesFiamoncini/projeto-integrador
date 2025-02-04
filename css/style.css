@@ -180,6 +180,7 @@ header {
     opacity: 50%;
     height: 80px;
 }
+
 header div.divPrincipal {
     display: flex;
     justify-content: space-between;
@@ -192,13 +193,11 @@ header div.divDois ul li {
     padding: 0 25px;
 }
 
-.divDois li {
-
-}
-header div.divDois ul{
+header div.divDois ul {
     display: flex;
 }
-header div.divPrincipal div.image a{
+
+header div.divPrincipal div.image a {
     margin: 15px 0 15px 35px;
     font-size: 1.1rem;
 }
@@ -587,21 +586,21 @@ footer {
 
 
 /* === TESTE === */
-div#traco{
+div#traco {
     position: absolute;
-    top: -30px;
+    top: -32px;
     left: 0;
     height: 5px;
     width: 50px;
-    background: red;
+    background: #9dcd5a;
     /*z-index: 99;*/
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    transition: left 1s;
+    transition: left 0.5s;
 }
-header div.divDois ul{
+
+header div.divDois ul {
     position: relative;
 }
-header div.divDois ul{
-    
-}
+
+header div.divDois ul {}
