@@ -247,10 +247,7 @@ section.saudaveis h2 {
 }
 
 
-section.saudaveis ul li {
-    margin: 1.5vw 0 0 0;
-    font-size: 1.3rem;
-}
+
 
 section.saudaveis div.principal {
     display: flex;
@@ -311,11 +308,75 @@ section.baixo h1 {
 
 
 
+/*CARD*/
+
+.maincontainer {
+    position: relative;
+    width: 420px;
+    height: 720px;
+  }
+
+  .thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+  }
+
+  .thecard:hover {
+    transform: rotateY(180deg);
+  }
+
+  .thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #000000;
+    color: #333;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-apple-whole{
+    font-size: 150px;
+    color: rgb(19, 233, 48);
+  }
+   .fa-burger{
+    font-size: 150px;
+    color: rgb(164, 106, 61);
+   }
+
+  .theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-size: 22px;
+
+    font-weight: bold;
+    transform: rotateY(180deg);
+  }
 
 
 
+h2.estilo{
+    font-style: italic;
+    padding: 2vw;
+}
 
 
-
-
-
+.vazia{
+    padding: 5vw;
+}
