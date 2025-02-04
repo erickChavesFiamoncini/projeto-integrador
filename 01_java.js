@@ -1,3 +1,4 @@
+alert('ooo')
 import dietas from "./dietas.js"
 let radio = document.querySelector(`.manual-btn`)
 let opcoes = document.querySelectorAll(`.bult`)
@@ -10,7 +11,8 @@ let sexoSelecionado = ""
 let opcaoSelecionada = ""
 let condicaoSelecionada = ""
 let cont = 1
-
+let menu = document.getElementById('mobile-menu');
+alert(menu.className);
 
 let opcoesDePeso = [
   {
@@ -123,6 +125,31 @@ function proximaImg() {
   document.getElementById(`radio` + cont).checked = true
 }
 
+class MobileNavbar {
+  constructor() {
+    this.mobileMenu = document.querySelector(mobile-menu);
+    this.navList = document.querySelector(navList);
+    this.navLinks = document.querySelectorAll(navLinks);
+    this.activeClass = "active";
+  }
 
+  addClickEvent() {
+    this.mobileMenu.addEventListener("click", () => console.log("Hey"));
+  }
 
+  init() {
+    if (this.mobileMenu) {
+      this.addClickEvent();
+    }
+    return this;
+  }
+}
+
+const MobileNavbar = new MobileNavbar(
+  ".mobile-menu",
+  ".nav-list",
+  ".nav-list li",
+);
+
+mobileNavbar.init();
 
