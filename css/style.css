@@ -191,6 +191,10 @@ header div.divPrincipal {
 header div.divDois ul li {
     margin: 0;
     padding: 0 25px;
+}       
+
+.divPrincipal .divDois nav ul li.aceitacao {
+    list-style-type: disc;
 }
 
 header div.divDois ul {
