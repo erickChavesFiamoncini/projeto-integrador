@@ -37,6 +37,17 @@ form.addEventListener('submit', function (event) {
     }
 
 
-    value.textContent = bmi.replace('.', ',');
+    value.textContent = bmi.replaceAll(".", ",");
     document.getElementById('description').textContent = description;
+});
+
+//TROCA DE VÍRGULA POR PONTO
+document.addEventListener("DOMContentLoaded", function () {
+    const inputFields = document.querySelectorAll(".input-field input");
+
+    inputFields.forEach(input => {
+        input.addEventListener("input", function () {
+            this.value = this.value.replace(",", ".");
+        });
+    });
 });
