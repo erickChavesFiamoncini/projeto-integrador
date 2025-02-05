@@ -188,19 +188,6 @@ header div.divPrincipal {
     height: 100%;
 }
 
-header div.divDois ul li {
-    margin: 0;
-    padding: 0 25px;
-}       
-
-.divPrincipal .divDois nav ul li.aceitacao {
-    list-style-type: disc;
-}
-
-header div.divDois ul {
-    display: flex;
-}
-
 header div.divPrincipal div.image a {
     margin: 15px 0 15px 35px;
     font-size: 1.1rem;
@@ -213,6 +200,19 @@ header div.divPrincipal div.image a {
 .image h1 {
     padding: 0px 10px 0;
     font-size: 1.3rem;
+}
+
+header div.divDois ul {
+    display: flex;
+}
+
+header div.divDois ul li {
+    margin: 0;
+    padding: 0 25px;
+}
+
+.divPrincipal .divDois nav ul li.aceitacao {
+    list-style-type: disc;
 }
 
 .menu li a {
@@ -229,7 +229,7 @@ header div.divPrincipal div.image a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-} 
+}
 
 .nav-list {
     list-style: none;
@@ -284,6 +284,7 @@ header div.divPrincipal div.image a {
 .nav-list.active {
     transform: translateX(0);
 }
+
 /*======================================================================
                                 Slide
 =======================================================================*/
@@ -313,6 +314,24 @@ section.slider {
     position: relative;
     text-align: center;
     transition: 1s;
+}
+
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: #FFFFFF;
+}
+
+#radio1:checked~.primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked~.primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked~.primeiro {
+    margin-left: -50%;
 }
 
 .slide-box img {
@@ -359,24 +378,6 @@ section.slider {
 
 .nav-manual .manual-btn:hover {
     background-color: #FFFFFF;
-}
-
-#radio1:checked~.nav-auto .auto-btn1,
-#radio2:checked~.nav-auto .auto-btn2,
-#radio3:checked~.nav-auto .auto-btn3 {
-    background-color: #FFFFFF;
-}
-
-#radio1:checked~.primeiro {
-    margin-left: 0%;
-}
-
-#radio2:checked~.primeiro {
-    margin-left: -25%;
-}
-
-#radio3:checked~.primeiro {
-    margin-left: -50%;
 }
 
 @media screen and (max-width: 900px) {
