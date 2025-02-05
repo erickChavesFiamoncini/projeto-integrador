@@ -320,18 +320,31 @@ section.baixo h1 {
     justify-content: center;
     padding: 2vw 0 0 0;
 }
-div.DUAS{
+.baixoTexto{
     display: flex;
-    margin: 5vw;
+    margin:  5vw;
 }
-.texto p{
-    padding: 1.01vw 1.5vw 0 0;
-    font-size: 20px;
+.fotoMedi {
+    display: flex;
+    justify-content: center;
+}
+.fotoMedi img{
+    padding: 1vw 0 0 0;
+    border-radius: 20vw;
 }
 
-.fotoMedi img{
-    border-radius: 5rem;
+div.cimaTexto{
+    display: flex;
+    margin:  5vw ;
 }
+
+.arrumar {
+    background-color: #4c70ba;
+    border-radius: 20px ;
+    margin: 0.9vw;
+}
+
+
 /*CARD*/
 
 .maincontainer {
