@@ -348,24 +348,24 @@ section.pequenos {
   
   .pequenos .maincontainer {
     display: flex;
-    justify-content: center; /* Centraliza os cards */
+    justify-content: center; 
     align-items: center;
-    flex-wrap: nowrap; /* Impede que os cards fiquem empilhados */
+    flex-wrap: wrap; 
     gap: 20px;
     width: 100%;
     max-width: 1200px;
     padding: 20px;
 }
 
-
-  
-  .thecard {
-    position: relative;
-    width: 460px;
+.thecard {
+    flex: 1; 
+    max-width: 460px; 
     height: 680px;
+    position: relative;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
-  }
+}
+
   
   .thecard:hover {
     transform: rotateY(180deg);
