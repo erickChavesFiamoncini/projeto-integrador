@@ -251,56 +251,6 @@ section.banner h1{
 
 
 
-section.pequenos{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    gap: 5vw;
-}
-section.pequenos div {
-  width: 20%;
-  background-color: #1c1b55;
-  color: #ffffff;
-  padding: 3vw;
-  border-radius: 2vw;
-  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  letter-spacing: 0.1vw;
-  line-height: 1.4vw;
-}
-section.pequenos div.um i{
-    padding:  0  0 1.2vw 0;
-    font-size: 4rem;
-}
-section.pequenos div.um h2{
-    font-size: 1.7rem;
-    margin: 0 0 1.5vw 0;
-}
-section.pequenos div.um p{
-    font-size: 1.3rem;
-}
-section.pequenos div.dois i{
-    padding:  0  0 1.2vw 0;
-    font-size: 4rem;
-}
-section.pequenos div.dois h2{
-    font-size: 1.7rem;
-    margin: 0 0 1.5vw 0;
-}
-section.pequenos div.dois p{
-    font-size: 1.3rem;
-}
-section.pequenos div.tres i{
-    padding:  0  0 1.2vw 0;
-    font-size: 4rem;
-}
-section.pequenos div.tres h2{
-    font-size: 1.7rem;
-    margin: 0 0 1.5vw 0;
-}
-section.pequenos div.tres p{
-    font-size: 1.3rem;
-}
 
 
 /*                           CORPO                     */
@@ -381,3 +331,96 @@ section.curiosidades div.img {
 section.curiosidades div.mar {
     padding: 0 0 0 0;
 }
+
+/*                           CARD             */ 
+
+
+section.pequenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px 20px 20px 60px;
+  }
+  
+  
+  .pequenos .maincontainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  
+  .thecard {
+    position: relative;
+    width: 420px;
+    height: 680px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+  }
+  
+  .thecard:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #1c1b55;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section.pequenos .fa-solid {
+    font-size: 120px;
+    color: white;
+  }
+  
+  .theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #1c1b55;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    transform: rotateY(180deg);
+  }
+  
+  .theback h2 {
+    font-size: 1.7rem;
+    margin: 2vw 0 2vw 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .theback p {
+    font-size: 1.3rem;
+    padding: 0vw 1vw 2vw 1vw;
+    line-height: 2.2vw;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+  }
+
+  
+  .pequenos .maincontainer {
+    max-width: none; 
+  }
