@@ -348,13 +348,16 @@ section.pequenos {
   
   .pequenos .maincontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Centraliza os cards */
+    align-items: center;
+    flex-wrap: nowrap; /* Impede que os cards fiquem empilhados */
     gap: 20px;
     width: 100%;
     max-width: 1200px;
     padding: 20px;
-  }
-  
+}
+
+
   
   .thecard {
     position: relative;
