@@ -298,7 +298,9 @@ section.video2 p {
     padding: 0 5vw 0 0;
 }
 
-
+.espaco{
+    margin: 0 0 0 1.1vw;
+}
 
 section.baixo h1 {
     margin: 5.5vw 0 5.5vw 0;
@@ -315,14 +317,18 @@ section.baixo h1 {
     justify-content: center;
 }
 .mediterranea h3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: flex;
     justify-content: center;
     padding: 2vw 0 0 0;
 }
+.cimaTexto{
+    font-size: 1.5vw
+}
 .baixoTexto{
     display: flex;
     margin:  5vw;
+    font-size: 1.5vw
 }
 .fotoMedi {
     display: flex;
@@ -339,7 +345,7 @@ div.cimaTexto{
 }
 
 .arrumar {
-    background-color: #4c70ba;
+    background-color: rgb(45, 124, 50);
     border-radius: 20px ;
     margin: 0.9vw;
 }
