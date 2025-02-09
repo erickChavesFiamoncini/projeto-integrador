@@ -264,11 +264,11 @@ main section.legenda {
 
 main section.legenda div h2 {
     margin: 1vw 0 1.8vw 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 main section.legenda div p {
-    font-size: 2.1rem;
+    font-size: 2.6rem;
     color: #2e2e2c;
     /*color: #EF3F6E;*/
 }
@@ -280,23 +280,24 @@ main section.video {
     margin: 4rem 0 0 0;
     background-color: #2e2e2c;
     /* border-radius: 2vw;*/
+    
 }
 
 main section.video div.interior div.texto {
     padding: 2rem;
     text-align: center;
     align-items: center;
-    margin: 0 0 6vw 0;
+    margin: 5vw 0 6vw 0;
 }
 
 main section.video div.interior div.texto h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 3vw 0 1vw 0;
     color: white;
 }
 
 main section.video div.interior div.texto p {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     color: rgb(204, 201, 201);
 }
 
@@ -304,17 +305,49 @@ main section.video div.interior div.videos {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+    margin: 15vw 0 0 0;
 }
 
-main section.video div.interior div.videos p {
+main section.video div.interior div.videos div {
     margin: 0 4vw 10rem 4vw;
 }
+.video1{
+    position: relative;
+    width: 90%;
+    padding-bottom:50.625 ;
+    
+    
+    
+}
+.video1 iframe{
+    position: absolute;
+    width: 100%;
+    height: 56.25%;
+    border: none;
+}
+
+.video2{
+    position: relative;
+    width: 90%;
+    padding-bottom: 50.625%;
+
+    
+    
+}
+.video2 iframe{
+    position: absolute;
+    width: 100%;
+    height: 56.25%;
+    border: none;
+}
+
 
 /*======================================================================
                                 MAIN MOTIVAÇÃO
 =======================================================================*/
 main section.motivacionais div.principal {
     padding: 5vw;
+    
 }
 
 main section.motivacionais div.incentivo {
@@ -516,3 +549,150 @@ footer {
     margin: 5px 0;
 
 }
+
+/*                  RESPONSIVIDADE                  */
+
+@media(max-width: 500px){
+
+
+    /* BANNER */
+    /* main section.banner div.texto{
+        margin: 0 0 0 0.4vw;
+    } */
+    main section.banner div.texto ul li.titulo {
+        font-size: 2.3rem;
+        text-align: center;
+        padding: 5vw 0 4vw 7vw;
+        
+
+    }
+    main section.banner div.texto ul li.paragrafo{
+        margin: 0 0 3vw 0vw;
+        padding: 0 0 0 7vw;
+
+    }
+
+    /* SECTION1 */
+
+    main section.legenda div h2{
+        font-size: 1.8rem;
+        margin: 3vw 6vw 7vw 6vw ;
+    }
+    main section.legenda div p{
+        font-size: 1.4rem;
+        
+    }
+    main section.banner{
+        margin: 0 0 5vw 0;
+
+    }
+
+    
+
+    /* SECTION2 */
+
+    main section.video div.interior div.texto h2{
+        font-size: 1.8rem;
+        margin: 7vw 6vw 5vw 6vw;
+
+    }
+    main section.video div.interior div.texto p{
+        font-size: 1.4rem;
+    }
+    
+    main section.banner div.texto ul li.paragrafo{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 3vw 0 3vw 0;
+    }
+
+    /* VIDEOS */
+    .video .interior .videos{
+        flex-direction: column;
+        margin: 0 5vw 0 0;
+    }
+
+    .video1 iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .video2 iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    
+    
+
+    /* MOTIVACIONAIS */
+    .motivacionais .principal .incentivo{
+        flex-direction: column;
+    }
+    .motivacionais .frases .frase1{
+        flex-direction: column;
+    }
+    .motivacionais .frases .frase2{
+        flex-direction: column;
+    }
+    .motivacionais .frases .frase3{
+        flex-direction: column;
+    }
+
+
+    /* MOTIVACIONAIS */
+    main section.motivacionais div.principal{
+        margin: 0 0 10vw 0;
+    }
+
+    main section.motivacionais div.principal div h2{
+        font-size: 2rem;
+    }
+    main section.motivacionais div.frases h2{
+        font-size: 2rem;
+    }
+    main section.motivacionais div.frases div.frase2 h2{
+        margin: 0 0 0 5vw;
+
+    }
+    main section.motivacionais div.frases div.frase1 h2{
+        margin: 0 5vw 0 0;
+
+    }
+    main section.motivacionais div.frases div.frase3 h2{
+        margin: 0 5vw 0 0;
+    }
+
+    main section.motivacionais div.frases div.frase2{
+        flex-direction: column-reverse;
+        margin: 0 0 5vw 0;
+    }
+    main section.motivacionais div.frases div.frase1{
+        margin: 0 0 5vw 0;
+    }
+    
+
+
+    /* IMAGENS */
+
+    .motivacionais .principal .incentivo p img {
+        width: 100%;
+        
+        
+        margin: 0 0 4vw;
+    }
+    .motivacionais .frases .frase1 p img {
+        width: 100%;
+        margin: 4vw 0;
+    }
+    .motivacionais .frases .frase2 p img {
+        width: 100%;
+        margin: 3vw 0 5vw 0;
+    }
+    .motivacionais .frases .frase3 p img {
+        width: 100%;
+    }
+    }
+    
