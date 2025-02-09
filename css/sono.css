@@ -408,16 +408,16 @@ section.pequenos .fa-solid {
 }
 
 .theback h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 2vw 0 2vw 0;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .theback p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: 0vw 1vw 2vw 1vw;
-    line-height: 1.7vw;
+    line-height: 1.9vw;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
