@@ -12,7 +12,7 @@ let opcaoSelecionada = ""
 let condicaoSelecionada = ""
 let cont = 1
 let menu = document.getElementById('mobile-menu');
-alert(menu.className);
+//alert(menu.className);
 
 let opcoesDePeso = [
   {
@@ -125,7 +125,7 @@ function proximaImg() {
   document.getElementById(`radio` + cont).checked = true
 }
 
-class MobileNavbar {
+/*class MobileNavbar {
   constructor() {
     this.mobileMenu = document.querySelector(mobile-menu);
     this.navList = document.querySelector(navList);
@@ -143,7 +143,7 @@ class MobileNavbar {
     }
     return this;
   }
-}
+}*/
 
 const MobileNavbar = new MobileNavbar(
   ".mobile-menu",

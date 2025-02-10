@@ -4,19 +4,87 @@
 */
 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -24,25 +92,44 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
     list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -55,8 +142,8 @@ table {
 /*======================================================================
                                 Geral
 =======================================================================*/
-body{
-   
+body {
+
     color: #FFFFFF;
 }
 
@@ -65,6 +152,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 /*======================================================================
                                 Topo
 =======================================================================*/
@@ -78,23 +166,28 @@ header {
     opacity: 50%;
     height: 80px;
 }
+
 header div.divPrincipal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 header div.divDois ul li {
     margin: 0;
     padding: 0 35px;
 }
-header div.divDois ul{
+
+header div.divDois ul {
     display: flex;
 }
-header div.divPrincipal div.image a{
+
+header div.divPrincipal div.image a {
     margin: 15px 0 15px 35px;
     font-size: 1.9rem;
 }
+
 /*======================================================================
                                 Main
 =======================================================================*/
@@ -118,6 +211,7 @@ footer {
     padding: 40px 0;
     font-family: Arial, sans-serif;
 }
+
 .footer-top h2 {
     color: #232fb8;
     font-size: 24px;
@@ -156,12 +250,14 @@ footer {
     margin: 0 15px;
     color: #ddd;
     font-size: 24px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 60%;
 }
+
 .footer-icons a.insta {
-    padding: 10px 12px 10px 12px ;
+    padding: 10px 12px 10px 12px;
 }
+
 .footer-icons a.insta:hover {
     background: radial-gradient(circle at 30% 30%, #F58529, #DD2A7B, #8134AF, #515BD4);
     padding: 12px 14px 12px 14px;
@@ -170,14 +266,16 @@ footer {
 
 
 .footer-icons a.face {
-    padding: 10px 11px 10px 11px ;
+    padding: 10px 11px 10px 11px;
 }
+
 .footer-icons a.face:hover {
     background: radial-gradient(circle at 30% 30%, #3b5998, #4c70ba, #8b9dc3, #dfe3ee);
     padding: 12px 14px 12px 14px;
 
 
 }
+
 .face i,
 .insta i {
     transition: transform 0.3s ease-in-out;
@@ -191,9 +289,17 @@ footer {
 
 
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
@@ -204,36 +310,40 @@ footer {
 
 
 }
+
 /*SONO*/
 
 
 
 
-html{
-    background: linear-gradient(to top, #0b104d,  #20276d )
+html {
+    background: linear-gradient(to top, #0b104d, #20276d)
 }
-   
 
 
 
 
-section{
+
+section {
     padding: 3vw;
-   
+
 }
-section.banner{
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url( https://cdn.pixabay.com/photo/2023/01/14/01/20/child-7717305_960_720.png
-    ) no-repeat center center; /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
+
+section.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(https://cdn.pixabay.com/photo/2023/01/14/01/20/child-7717305_960_720.png
+) no-repeat center center;
+    /*background: url(../src/banner.jpg), linear-gradient(red, blue);*/
     padding: 17vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: under;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
 
-   
-   
+
+
 }
-section.banner h1{
+
+section.banner h1 {
     font-size: 5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     animation: fadeIn 3s ease-in-out;
@@ -243,10 +353,17 @@ section.banner h1{
 
 
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(-10px); }
-    100% { opacity: 1; transform: translateY(0); }
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-   
+
 
 
 
@@ -254,13 +371,14 @@ section.banner h1{
 
 
 /*                           CORPO                     */
-section.corpo div h2{
+section.corpo div h2 {
     text-align: center;
     font-size: 3rem;
     margin: 0 0 5vw 0;
 
 }
-section.corpo div p.legenda{
+
+section.corpo div p.legenda {
     font-size: 1.7rem;
     color: white;
     text-align: center;
@@ -268,26 +386,32 @@ section.corpo div p.legenda{
 
 
 }
+
 section.corpo div.maior {
     display: flex;
     margin: 5vw 5vw 0vw 14vw;
-}   
+}
+
 section.corpo div.maior div.rico {
     margin: 0 0 0 4vw;
 }
+
 section.corpo div.maior div.rico ul li {
     margin: 2.1vw 0 5vw 0;
 }
+
 section.corpo div.maior div.rico ul li p {
-    padding: 1vw 10vw 0 0 ;
+    padding: 1vw 10vw 0 0;
     font-size: 1.5rem;
 }
+
 section.corpo div.maior div.rico ul li span {
     font-size: 2.1rem;
     margin: 0 0 2vw 0;
     color: #60a8fa;
 
 }
+
 section.corpo img {
     border-radius: 1.8vw;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
@@ -374,32 +498,32 @@ section.rem ul li.quarto {
 .front,
 .back {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -5%;
+    left: 0%;
+    width: 120%;
+    height: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     border-radius: 20px;
     background-color: grey;
     font-size: 16px;
     text-align: center;
     backface-visibility: hidden;
-    
+    line-height: 0.89vw;
+
 }
 
 .front {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /*padding: 10px;*/
     border-radius: 20px;
     background-color: white;
     color: white;
@@ -410,8 +534,9 @@ section.rem ul li.quarto {
 }
 
 .front img {
-    width: 120%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
     border-radius: 20px;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
 }
@@ -447,46 +572,53 @@ section.rem ul:hover li:not(:hover) {
 }
 
 
-/*                           CURIOSIDADES              */    
+/*                           CURIOSIDADES              */
 
-section.curiosidades h2{
+section.curiosidades h2 {
     text-align: center;
     font-size: 3rem;
     margin: 0 0 5vw 0;
-    text-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5) ;
+    text-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5);
 }
+
 section.curiosidades div.maior {
     display: flex;
     text-align: center;
     margin: 5vw 4vw 5vw 5vw;
 }
+
 section.curiosidades ul li {
     padding: 0 13vw 0 0;
     margin: 0 0 0 0;
 }
+
 section.curiosidades ul li p {
     font-size: 1.5rem;
     color: whitesmoke;
     margin: 0 0 1vw 0;
     text-align: left;
 }
+
 section.curiosidades ul li span {
     color: #60a8fa;
     font-size: 2.1rem;
 }
+
 section.curiosidades div img {
     border-radius: 1.8vw;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
     margin: 3vw 6vw 0 0;
 }
+
 section.curiosidades div.img {
     padding: 0 5vw 0 0;
 }
+
 section.curiosidades div.mar {
     padding: 0 0 0 0;
 }
 
-/*                           CARD             */ 
+/*                           CARD             */
 
 
 section.pequenos {
@@ -496,14 +628,14 @@ section.pequenos {
     width: 100%;
     max-width: 1400px;
     padding: 20px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .pequenos .maincontainer {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    gap: 75px; 
+    gap: 75px;
     width: 100%;
     max-width: 1200px;
     padding: 20px;
@@ -512,12 +644,12 @@ section.pequenos {
 
 .thecard {
     width: 500px;
-    height: 925px;  
+    height: 925px;
     position: relative;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
     border-radius: 25px;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
 
 
@@ -589,38 +721,6 @@ section.pequenos .fa-solid {
         padding: 0;
         font-family: 'Georgia', serif;
     }
-
-
-    section.pequenos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5vw;
-    }
-
-    section.pequenos div {
-        width: 70%;
-
-        padding: 10vw;
-        /* Cria mais espaço ao redor do conteúdo */
-        min-height: 40vh;
-        /* Altura mínima do fundo */
-        background-color: #1c1b55;
-        color: #ffffff;
-        border-radius: 2vw;
-        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        letter-spacing: 0.1vw;
-        line-height: 1.6rem;
-        display: flex;
-
-
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
     section.banner h1 {
         font-size: 3.1rem;
         color: #ffffff;
@@ -628,46 +728,6 @@ section.pequenos .fa-solid {
         margin: 0;
         padding: 0;
         font-family: 'Georgia', serif;
-    }
-
-    section.pequenos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 4vw;
-    }
-
-    section.pequenos div {
-        width: 70%;
-        padding: 10vw;
-        min-height: 40vh;
-        background-color: #1c1b55;
-        color: #ffffff;
-        border-radius: 2vw;
-        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        letter-spacing: 0.1vw;
-        line-height: 1.6rem;
-        display: flex;
-
-
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    section.pequenos div h2 {
-        font-size: 1.8rem;
-    }
-
-    section.pequenos div p {
-        font-size: 1.4rem;
-    }
-
-    section.pequenos div p {
-        font-size: 1.4rem;
-
     }
 
     section.corpo div.maior {
@@ -680,55 +740,91 @@ section.pequenos .fa-solid {
         margin: 0 4vw 0 0
     }
 
-    
+    /* pequenos */
+    main section.pequenos div.maincontainer {
+        flex-direction: column;
+    }
+    section.pequenos div {
+        width: 90%;
+        height: 200%;
+        padding: 2vw 2vw 50vw 2vw;
+        margin: 0 11vw 100vw 4vw;
+    }
+    section.pequenos div.theback p {
+        line-height: 1.8rem;
+        font-size: 1rem;
+
+    }
+    section.pequenos div.theback p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    section.pequenos div.theback p:first-child {
+        font-size: 3rem;
+
+    }
+
+
 
     /*            REM                 */
     section.rem ul li {
-        width: 69%;
+        width: 35%;
         padding: 7vw;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     section.rem ul li:first-child,
     section.rem ul li.quarto {
-        width: 69%;
-        padding: 7vw;
+        width: 35%;
         margin: 0 1vw 0 0;
+        font-size: 0.5rem;
     }
-    
+
     section.rem ul li:nth-child(n+4) {
         margin-top: 20px;
-        width: 69%;
+        width: 35%;
     }
-    
+
     section.rem ul li .content {
-        line-height: 1;
+        line-height: 3rem;
+        padding: 15vw;
+        height: 56%;
     }
-    
+
     section.rem ul li h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-bottom: 1rem;
     }
-    
+
     section.rem ul li p {
         font-size: 1rem;
     }
+    main section.rem ul li div.content div.back {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    main section.rem ul li h3 {
+        margin: 0 0 5vw 0;
+
+    }
+
     /*             Curiosidades                 */
     section.curiosidades div.maior {
         flex-direction: column;
         flex-direction: column-reverse;
     }
+
     section.curiosidades div.maior div.img img {
         width: 105%;
         height: 110%;
         margin: 10vw 0 10vw 0;
     }
+
     /*                foooooooooooooter             */
     footer div.footer-top nav.footer-nav a {
         font-size: 0.8rem;
     }
 }
-  
-  
