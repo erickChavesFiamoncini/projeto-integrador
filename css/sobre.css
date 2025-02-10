@@ -145,7 +145,7 @@ body {
 }
 
 html {
-  background-color: #707070;
+  background-color: black;
 }
 
 a {
@@ -191,18 +191,18 @@ header div.divPrincipal div.image a {
 /*======================================================================
                                 Main
 =======================================================================*/
+section div.h1 {
+  background-color: rgba(32, 223, 15, 0.6);
+  padding: 20px 0 6vw 0;
+  border-bottom: black solid 10px;
+  border: 10px, rgb(105, 63, 63) double;
+}
 section h1 {
   margin: 6vw 0 0 0;
-  color: white;
-  font-size: 3rem;
+  color: black;
+  font-size: 3.5rem;
   text-align: center;
-  text-decoration: white overline;
-}
-
-section div.h1 {
-  background-color: #363636;
-  padding: 20px 0 50px 0;
-  border-bottom: black solid 10px;
+  text-decoration: black overline;
 }
 
 /*======================================================================
@@ -216,7 +216,7 @@ section div.conteudo {
 section div.conteudo div img {
   width: 430px;
   height: 430px;
-  border: black 5px dashed;
+  border-radius: 35px;
   margin: 0 0 3vw 12vw;
 }
 
@@ -227,7 +227,7 @@ section div.conteudo div ul {
 section div.conteudo div ul li h2 {
   font-size: 1.5rem;
   margin: 0 12vw 1.5vw 0;
-  background: linear-gradient(to right, black, transparent);
+  background: linear-gradient(to right, green, transparent);
   padding: 10px;
   border-radius: 10px;
 }
@@ -241,17 +241,27 @@ section div.conteudo div ul li p {
 /*======================================================================
                                 Main - Parte 3
 =======================================================================*/
+div.linhas{
+  border: 2px white solid;
+  margin: 6vw 30%;
+  border-radius: 20px;
+}
+div.ultimaLinha{
+  margin: 6vw 30% 0 30%;
+  border: 2px white solid;
+  border-radius: 20px;
+}
 section div.objetivo {
   margin: 3vw 0 0 0;
   display: flex;
-  background-color: #363636;
+  background-color: black;
   padding: 40px 0 40px 0;
 }
 
 section div.objetivo div img {
   width: 430px;
   height: 430px;
-  border: black 5px dashed;
+  border-radius: 35px;
   margin: 0 12vw 0 0vw;
 }
 
@@ -262,7 +272,7 @@ section div.objetivo div ul {
 section div.objetivo div ul li h2 {
   font-size: 1.5rem;
   margin: 0 0vw 1.5vw 12vw;
-  background: linear-gradient(to left, black, transparent);
+  background: linear-gradient(to left, green, transparent);
   padding: 10px;
   border-radius: 10px;
   text-align: right;
@@ -451,7 +461,7 @@ section div.objetivo div ul li p {
 
   position: absolute;
   top: 191%;
-  left: 54%;
+  left: 55%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 40px;
