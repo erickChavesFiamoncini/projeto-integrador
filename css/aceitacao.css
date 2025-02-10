@@ -314,7 +314,7 @@ main section.video div.interior div.videos div {
 .video1{
     position: relative;
     width: 90%;
-    padding-bottom:50.625 ;
+    padding-bottom:50.625% ;
     
     
     
@@ -693,6 +693,9 @@ footer {
     }
     .motivacionais .frases .frase3 p img {
         width: 100%;
+    }
+    footer div.footer-top nav.footer-nav a {
+        font-size: 0.8rem;
     }
     }
     

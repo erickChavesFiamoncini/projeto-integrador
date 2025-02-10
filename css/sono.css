@@ -293,6 +293,160 @@ section.corpo img {
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
 }
 
+/*                     REM                           */
+
+section.tituRem h2 {
+    margin: 2vw 0 0 0;
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+section.rem h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0 1.5vw 0;
+}
+
+
+section.rem {
+    position: relative;
+    margin: 0vw 0 8vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+
+
+
+section.rem ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+
+section.rem ul li {
+    width: 16%;
+    height: 250px;
+    perspective: 1000px;
+    transition: margin-top 0.3s ease;
+    margin: 0 2vw 0vw 0;
+}
+
+
+section.rem ul li:nth-child(n+5) {
+    margin-top: 75px;
+}
+
+section.rem ul li:first-child {
+    margin: 0 2vw 0 6vw;
+}
+
+section.rem ul li.quarto {
+    margin: 0 8vw 0 0vw;
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+
+.front,
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: grey;
+    font-size: 16px;
+    text-align: center;
+    backface-visibility: hidden;
+    
+}
+
+.front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    backface-visibility: hidden;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+}
+
+.front img {
+    width: 120%;
+    height: 110%;
+    border-radius: 20px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.back {
+    background-color: #1c1b55;
+    color: white;
+    transform: rotateY(180deg);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+li:hover .content {
+    transform: rotateY(180deg);
+}
+
+section.rem span {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+section.rem li:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease, margin 0.3s ease;
+    margin: 10px;
+}
+
+
+section.rem ul:hover li:not(:hover) {
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+
 /*                           CURIOSIDADES              */    
 
 section.curiosidades h2{
@@ -421,6 +575,160 @@ section.pequenos .fa-solid {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
+}
+
+
+/*         RESPONSIVO                    */
+@media screen and (max-width: 600px) {
+    section.banner h1 {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: center;
+
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+    }
+
+
+    section.pequenos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    section.pequenos div {
+        width: 70%;
+
+        padding: 10vw;
+        /* Cria mais espaço ao redor do conteúdo */
+        min-height: 40vh;
+        /* Altura mínima do fundo */
+        background-color: #1c1b55;
+        color: #ffffff;
+        border-radius: 2vw;
+        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 0.1vw;
+        line-height: 1.6rem;
+        display: flex;
+
+
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.banner h1 {
+        font-size: 3.1rem;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+    }
+
+    section.pequenos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4vw;
+    }
+
+    section.pequenos div {
+        width: 70%;
+        padding: 10vw;
+        min-height: 40vh;
+        background-color: #1c1b55;
+        color: #ffffff;
+        border-radius: 2vw;
+        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 0.1vw;
+        line-height: 1.6rem;
+        display: flex;
+
+
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.pequenos div h2 {
+        font-size: 1.8rem;
+    }
+
+    section.pequenos div p {
+        font-size: 1.4rem;
+    }
+
+    section.pequenos div p {
+        font-size: 1.4rem;
+
+    }
+
+    section.corpo div.maior {
+        flex-direction: column;
+    }
+
+    section.corpo img {
+        width: 90%;
+        height: 90%;
+        margin: 0 4vw 0 0
+    }
+
+    
+
+    /*            REM                 */
+    section.rem ul li {
+        width: 69%;
+        padding: 7vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    section.rem ul li:first-child,
+    section.rem ul li.quarto {
+        width: 69%;
+        padding: 7vw;
+        margin: 0 1vw 0 0;
+    }
+    
+    section.rem ul li:nth-child(n+4) {
+        margin-top: 20px;
+        width: 69%;
+    }
+    
+    section.rem ul li .content {
+        line-height: 1;
+    }
+    
+    section.rem ul li h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    section.rem ul li p {
+        font-size: 1rem;
+    }
+    /*             Curiosidades                 */
+    section.curiosidades div.maior {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    section.curiosidades div.maior div.img img {
+        width: 105%;
+        height: 110%;
+        margin: 10vw 0 10vw 0;
+    }
+    /*                foooooooooooooter             */
+    footer div.footer-top nav.footer-nav a {
+        font-size: 0.8rem;
+    }
 }
   
   
