@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+
+/* styles.css */
+section.balanca_toda {
+    background-color: #CBE4D6;
+    padding: 18vw 4vw 16vw 4vw;
+}
+
+section.balanca_toda h2{
+    position: absolute;
+    top: 117vw;  
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.8rem; 
+    color: black;
+}
+section.balanca_toda div.balancaDiv {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.balanca_toda div.balanca {
+    padding: 0 6vw 0 0;
+}
+
+section.balanca_toda div.balanca .eixo {
+    position: absolute;
+    width: 10px;
+    height: 300px;
+    background-color: #333;
+    top: 40px;
+    left: 50%;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+section.balanca_toda div.balanca .prato-esquerdo, .prato-direito {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 5px;
+    bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+section.balanca_toda div.balanca .prato-esquerdo {
+    left: -30px;
+}
+section.balanca_toda div.prato-esquerdo div.hamburguer{
+    margin: -2vw 4vw 7vw 1.1vw;
+    font-size: 2vw;
+    color: black;
+}
+
+.prato-direito {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    right: -30px;
+    height: 20px; 
+}
+.prato-direito div.maca{
+    margin: -2.1vw 0 -8vw 1.2vw;
+    font-size: 2vw;
+}
+.base {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 20px;
+    bottom: -160px;
+    right: 20%;
+}
+
+.topo {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    bottom: 151px;
+    right: 15%;
+}
+
+.bolinha {
+    height: 30px;
+    width: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 42.5%;
+}
+
+.linhaesquerda {
+    position: absolute;
+    width: 10px;
+    height: 90px;
+    background-color: #333;
+    top: -100px;
+    left: 25%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transform: rotate(20deg);
+    border-radius: 15px;
+}
+
+.linhadireita {
+    position: absolute;
+    width: 10px;
+    height: 90px;
+    background-color: #333;
+    top: -100px;
+    left: 60%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transform: rotate(160deg);
+    border-radius: 15px;
+}
+
+.base {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 20px;
+    bottom: -160px;
+    right: 38%;
+}
+
+.basedupla {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 20px;
+    bottom: -180px;
+    right: 25%;
+}
+
+.bola {
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    border-radius: 50%;
+    bottom: -160px;
+    clip-path: inset(0 0 50% 0); /* Corta a metade inferior */
+    right: 44%;
+    position: absolute;
+}
+
+
+
+#resultado{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  min-height: 400px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 2;
+}
+section.balanca_toda div.perguntasBalanca {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0 0 3vw 0;
+    margin-top: -270px;
+}
+section.balanca_toda div.perguntasBalanca div.pergunta1{
+    margin: 0 3vw 0vw 0;
+    font-size: 1.3rem;
+    color: black;
+}
+section.balanca_toda div.perguntasBalanca div.pergunta1 h3{
+    margin: 0 3vw 0 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(1, 143, 1)
+}
+
+section.balanca_toda div.perguntasBalanca div.pergunta2{
+    margin: 0 3vw 0 0;
+    font-size: 1.3rem;
+    color: black;
+}
+section.balanca_toda div.perguntasBalanca div.pergunta2 h3{
+    margin: 0 3vw 0 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(1, 143, 1)
+}
+
+/* Definindo as cores para os alimentos */
+.maca {
+    color: red; /* Cor vermelha para maçã */
+}
+
+.cenoura {
+    color: rgb(255, 111, 0); /* Cor laranja para cenoura */
+}
+
+.salada {
+    color: green; /* Cor verde para salada */
+}
+
+.ovo {
+    color: rgb(163, 78, 78); /* Cor marrom claro para ovo */
+}
+section.balanca_toda #mensagem{
+    position: absolute;
+    top: 2800px;  
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.4rem; 
+    color: black;
+}
+section.balanca_toda .balancaDiv{
+    text-align: center;
+}
+section.balanca_toda .figura{
+    padding: 0vw 0 7vw 6vw;
+    margin-top: -90px;
+}

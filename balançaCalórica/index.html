@@ -1,0 +1,117 @@
+<script>
+    /*<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animação Balança da Justiça</title>
+        <link rel="stylesheet" href="balanca.css">
+    </head>
+    <body>
+        <div class="balanca">
+            <div class="eixo"></div>
+            <div class="prato-esquerdo"></div>
+            <div class="prato-direito"></div>
+        </div>
+    
+        <script src="balanca.js"><
+    </body>
+    </html>*/
+</script>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação Balança das Calorias</title>
+    <link rel="stylesheet" href="balanca.css">
+    <script src="https://kit.fontawesome.com/17a8c00d17.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main>
+        <section class="titulo">
+            <h2>BALANÇA CALÓRICA</h2>
+        </section>
+        <section class="balanca">
+            <div class="balanca">
+                <div class="eixo"></div>
+                <div class="basedupla"></div>
+                <div class="base"></div>
+                <div class="topo"></div>
+                <div class="bolinha"></div>
+                <div class="bola"></div>
+
+                <div class="prato-esquerdo">
+                    <div class="hamburguer">
+                        <i class="" id="pratoEsquerdo"></i>
+
+                    </div>
+
+                    <div class="linhaesquerda"></div>
+                    <div class="linhadireita"></div>
+                </div>
+
+                <div class="prato-direito">
+                    <div class="maca">
+                        <i class="" id="pratoDireito"></i>
+                        <div id="resultado"></div>
+
+                    </div>
+
+                    <div class="linhaesquerda"></div>
+                    <div class="linhadireita"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="perguntas">
+
+            <div class="pergunta1">
+
+                <h2>Qual alimento você mais consome?</h2>
+
+                <form action="#" method="get">
+                        <label for="alimento"><span>*Alimento:</span></label>
+                        <select name="alimento" id="alimento">
+                            <option value="fa-burger" data-calorias="195" data-nome="hambúrguer">Hambúrguer (100g)</option>
+                            <option value="fa-pizza-slice" data-calorias="266"data-nome="pizza">Pizza (100g)</option>
+                            <option value="fa-ice-cream" data-calorias="207"data-nome="sorvete">Sorvete (100g)</option>
+                            <option value="fa-hotdog" data-calorias="290"data-nome="hotdog">Hot-dog (100g)</option>
+                            <option value="fa-glass-water" data-calorias="60"data-nome="refrigerante">Refrigerante (200ml) </option>
+                            <option value="fa-cookie" data-calorias="469"data-nome="biscoito recheado">Biscoito Recheado (100g)</option>
+                            <option value="fa-sheet-plastic" data-calorias="556"data-nome="barra de chocolate">Barra de Chocolate (100g)</option>
+                        </select>
+                </form>
+
+            </div>
+
+           
+            
+                    <div class="pergunta2">
+
+                        <h2>Por qual alimento você deseja substituir?</h2>
+        
+                        <form action="#" method="get">
+                                <label for="alimento2">*Alimento:</label>
+                                <select name="alimento2" id="alimento2">
+                                    <option value="fa-apple-whole" data-calorias2="52"data-nome="maçãs">Maçã (100g)</option>
+                                    <option value="fa-leaf" data-calorias2="15" data-nome="saladas de alface">Salada de Alface (100g)</option>
+                                    <option value="fa-carrot" data-calorias2="41" data-nome="cenouras">Cenoura (100g)</option>
+                                    <option value="fa-egg" data-calorias2="155" data-nome="ovo(s) cozido(s)">Ovo cozido (100g)</option>
+                                </select>
+                        </form>
+        
+                    </div>
+                </section>
+        <div id="mensagem">
+            
+        </div>
+        <script src="balanca.js"></script>
+</body>
+</main>
+
+</html>
