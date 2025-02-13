@@ -158,28 +158,24 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 50%;
     z-index: 1000;
+    opacity: 50%;
     height: 80px;
 }
-
 header div.divPrincipal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-
 header div.divDois ul li {
     margin: 0;
     padding: 0 35px;
 }
-
-header div.divDois ul {
+header div.divDois ul{
     display: flex;
 }
-
-header div.divPrincipal div.image a {
+header div.divPrincipal div.image a{
     margin: 15px 0 15px 35px;
     font-size: 1.9rem;
 }

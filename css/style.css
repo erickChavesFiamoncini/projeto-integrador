@@ -592,5 +592,75 @@ div#traco {
 header div.divDois ul {
     position: relative;
 }
+@media screen and (max-width: 500px) {
 
-header div.divDois ul {}
+
+    .sexo{
+        flex-direction: column;
+    }
+    
+    div.gender{
+        margin: 50vw 0 0 35.5vw;
+        
+        
+        
+    }
+    div.gender h2{
+        margin: 0 0 3vw 0;
+    }
+
+
+    /* CALCULADORA */
+
+    main .body .container{
+        flex-direction: column;
+    }
+    main section.body div.container div.imagem img{
+        
+        height: 60vw;
+        
+    }
+    div.perguntas{
+        margin: 15vw 0 20vw 9vw;
+        
+        
+    }
+    div.perguntas h2{
+        margin: 0 8vw 3vw 0;
+    }
+    div.emen{
+        margin: 0 0 0vw 40vw;
+    }
+    div.final{
+        margin: 10vw 0 0 6vw;
+        
+    }
+    div.resultado{
+        margin: 15vw 0 30vw 15vw;
+    }
+    div.dieta{
+        margin: 0 0 20vw 0;
+    }
+   main section.body div.container{
+    width: 90%;
+   
+    
+   
+   }
+  footer{
+    margin-top: 30vw;
+  }
+   
+
+
+
+
+
+
+
+
+    footer div.footer-top nav.footer-nav a {
+        font-size: 0.8rem;
+    }
+
+}
