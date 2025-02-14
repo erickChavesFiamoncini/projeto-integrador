@@ -52,7 +52,7 @@ section.balanca_toda {
 
 section.balanca_toda h2{
     position: absolute;
-    top: 119vw;  
+    top: 123vw;  
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -286,60 +286,74 @@ section.balanca_toda .figura{
 }
 @media(max-width: 500px){
     section.balanca_toda h2{
-        top: 750vw;
+        top: 780vw;
     }
     section.balanca_toda div.perguntasBalanca{
         flex-direction:column ;
+        text-align: center;
+        
+
     } 
+    section.balanca_toda div.perguntasBalanca div.pergunta1{
+        margin: 0 0 7vw 0;
+    }
+    
     section.balanca_toda{
-        padding: 50vw 0;
+        padding: 100vw 0 150vw 0;
         margin-top:20vw ;
         margin-bottom: 10vw;
     }
     section.balanca_toda div.balanca .eixo {
-        width: 6px;
+        width: 2vw;
         height: 200px;
-        top: 30px;
+        top: 55vw;
+        left: 44vw;
     }
 
     section.balanca_toda div.balanca .prato-esquerdo, .prato-direito {
         width: 60px;
         height: 15px;
-        bottom: 5px;
+        top: 80vw;
+        left: 55vw;
     }
 
     section.balanca_toda div.balanca .prato-esquerdo {
-        left: -20px;
+        left: 15vw;
+        top: 80vw;
     }
 
     .prato-direito {
         right: -20px;
     }
 
-    .prato-direito div.maca, section.balanca_toda div.prato-esquerdo div.hamburguer {
-        font-size: 3vw;
-        margin: -3vw 0 -6vw 1vw;
+    .prato-direito div.maca {
+        font-size: 7vw;
+        margin: -3vw 0 2vw 5vw;
+    }
+    section.balanca_toda div.prato-esquerdo div.hamburguer {
+        font-size: 7vw;
+        margin: -8vw 5vw 10vw 5vw;
     }
 
     .base {
         width: 40px;
         height: 10px;
-        bottom: -120px;
-        right: 35%;
+        bottom: -55vw;
+        right: 6vw;
     }
 
     .topo {
         width: 100px;
         height: 8px;
-        bottom: 120px;
-        right: 25%;
+        bottom: 0vw;
+        left: 30vw;
     }
 
     .bolinha {
         height: 20px;
         width: 20px;
-        top: 20px;
-        right: 45%;
+        top: 51.5vw;
+        right: 8.7vw;
     }
 
     .linhaesquerda, .linhadireita {
@@ -361,16 +375,21 @@ section.balanca_toda .figura{
     .basedupla {
         width: 80px;
         height: 10px;
-        bottom: -140px;
-        right: 30%;
+        bottom: -60vw;
+        right: 0.81vw;
     }
 
     .bola {
         width: 20px;
         height: 20px;
-        bottom: -140px;
-        right: 42%;
+        bottom: -55vw;
+        right: 8.7vw;
     }
+    section.balanca_toda #mensagem{
+        color: black;
+        top: 950vw;
+    }
+    
     
 
 
