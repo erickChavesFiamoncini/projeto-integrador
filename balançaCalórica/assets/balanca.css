@@ -46,13 +46,13 @@ q:before, q:after {
 
 /* styles.css */
 section.balanca_toda {
-    background-color: #CBE4D6;
-    padding: 18vw 4vw 16vw 4vw;
+    background-color: #a1edc2;
+    padding: 18vw 4vw 20vw 4vw;
 }
 
 section.balanca_toda h2{
     position: absolute;
-    top: 117vw;  
+    top: 119vw;  
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -69,6 +69,7 @@ section.balanca_toda div.balancaDiv {
 }
 section.balanca_toda div.balanca {
     padding: 0 6vw 0 0;
+    
 }
 
 section.balanca_toda div.balanca .eixo {
@@ -81,6 +82,7 @@ section.balanca_toda div.balanca .eixo {
     border-radius: 20px;
     transform: translateX(-50%);
     z-index: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 section.balanca_toda div.balanca .prato-esquerdo, .prato-direito {
@@ -91,6 +93,7 @@ section.balanca_toda div.balanca .prato-esquerdo, .prato-direito {
     border-radius: 5px;
     bottom: 10px;
     transition: transform 0.5s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 section.balanca_toda div.balanca .prato-esquerdo {
@@ -121,6 +124,8 @@ section.balanca_toda div.prato-esquerdo div.hamburguer{
     border-radius: 20px;
     bottom: -160px;
     right: 20%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
 }
 
 .topo {
@@ -131,6 +136,7 @@ section.balanca_toda div.prato-esquerdo div.hamburguer{
     border-radius: 5px;
     bottom: 151px;
     right: 15%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .bolinha {
@@ -141,6 +147,7 @@ section.balanca_toda div.prato-esquerdo div.hamburguer{
     position: absolute;
     top: 30px;
     right: 42.5%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .linhaesquerda {
@@ -154,6 +161,7 @@ section.balanca_toda div.prato-esquerdo div.hamburguer{
     z-index: 1;
     transform: rotate(20deg);
     border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .linhadireita {
@@ -167,6 +175,7 @@ section.balanca_toda div.prato-esquerdo div.hamburguer{
     z-index: 1;
     transform: rotate(160deg);
     border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .base {
@@ -261,7 +270,7 @@ section.balanca_toda div.perguntasBalanca div.pergunta2 h3{
 }
 section.balanca_toda #mensagem{
     position: absolute;
-    top: 2800px;  
+    top: 145vw; 
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -274,4 +283,96 @@ section.balanca_toda .balancaDiv{
 section.balanca_toda .figura{
     padding: 0vw 0 7vw 6vw;
     margin-top: -90px;
+}
+@media(max-width: 500px){
+    section.balanca_toda h2{
+        top: 750vw;
+    }
+    section.balanca_toda div.perguntasBalanca{
+        flex-direction:column ;
+    } 
+    section.balanca_toda{
+        padding: 50vw 0;
+        margin-top:20vw ;
+        margin-bottom: 10vw;
+    }
+    section.balanca_toda div.balanca .eixo {
+        width: 6px;
+        height: 200px;
+        top: 30px;
+    }
+
+    section.balanca_toda div.balanca .prato-esquerdo, .prato-direito {
+        width: 60px;
+        height: 15px;
+        bottom: 5px;
+    }
+
+    section.balanca_toda div.balanca .prato-esquerdo {
+        left: -20px;
+    }
+
+    .prato-direito {
+        right: -20px;
+    }
+
+    .prato-direito div.maca, section.balanca_toda div.prato-esquerdo div.hamburguer {
+        font-size: 3vw;
+        margin: -3vw 0 -6vw 1vw;
+    }
+
+    .base {
+        width: 40px;
+        height: 10px;
+        bottom: -120px;
+        right: 35%;
+    }
+
+    .topo {
+        width: 100px;
+        height: 8px;
+        bottom: 120px;
+        right: 25%;
+    }
+
+    .bolinha {
+        height: 20px;
+        width: 20px;
+        top: 20px;
+        right: 45%;
+    }
+
+    .linhaesquerda, .linhadireita {
+        width: 6px;
+        height: 70px;
+        top: -80px;
+    }
+
+    .linhaesquerda {
+        left: 30%;
+        transform: rotate(15deg);
+    }
+
+    .linhadireita {
+        left: 55%;
+        transform: rotate(165deg);
+    }
+
+    .basedupla {
+        width: 80px;
+        height: 10px;
+        bottom: -140px;
+        right: 30%;
+    }
+
+    .bola {
+        width: 20px;
+        height: 20px;
+        bottom: -140px;
+        right: 42%;
+    }
+    
+
+
+
 }

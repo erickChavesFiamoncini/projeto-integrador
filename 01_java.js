@@ -1,4 +1,4 @@
-alert('ooo')
+
 import dietas from "./dietas.js"
 let radio = document.querySelector(`.manual-btn`)
 let opcoes = document.querySelectorAll(`.bult`)

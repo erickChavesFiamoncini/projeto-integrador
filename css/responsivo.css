@@ -2,4 +2,8 @@
     header div.divDois ul li{
         padding: 0 20px;
     }
+    header div.divDois {
+        
+        padding: 0 0 0 -20vw;
+    }
 }
