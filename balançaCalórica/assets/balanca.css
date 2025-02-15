@@ -284,26 +284,46 @@ section.balanca_toda .figura{
     padding: 0vw 0 7vw 6vw;
     margin-top: -90px;
 }
+
+/*RESPONSIVIDADE*/
 @media(max-width: 500px){
+
+    section.balanca_toda{
+        padding: 100vw 0 150vw 0;
+        margin-top: 40vw ;
+        margin-bottom: 1vw;
+        align-items: center;
+        
+        
+        
+        
+    }
     section.balanca_toda h2{
-        top: 780vw;
+        top: 740vw;
     }
     section.balanca_toda div.perguntasBalanca{
+        display: flex;
         flex-direction:column ;
         text-align: center;
-        
-
     } 
     section.balanca_toda div.perguntasBalanca div.pergunta1{
         margin: 0 0 7vw 0;
     }
     
-    section.balanca_toda{
-        padding: 100vw 0 150vw 0;
-        margin-top:20vw ;
-        margin-bottom: 10vw;
+    section.balanca_toda div.balancaDiv{
+    align-items: center;
+    width: 50%;
+    position: relative;
+    margin: 10vw 0 0 0;
+    
     }
-    section.balanca_toda div.balanca .eixo {
+    .figura{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+       /* section.balanca_toda div.balanca .eixo {
         width: 2vw;
         height: 200px;
         top: 55vw;
@@ -384,7 +404,7 @@ section.balanca_toda .figura{
         height: 20px;
         bottom: -55vw;
         right: 8.7vw;
-    }
+    }*/
     section.balanca_toda #mensagem{
         color: black;
         top: 950vw;

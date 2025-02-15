@@ -593,6 +593,9 @@ div#traco {
 header div.divDois ul {
     position: relative;
 }
+
+
+/*RESPONSIVIDADE*/
 @media screen and (max-width: 500px) {
 
 

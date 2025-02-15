@@ -10,38 +10,39 @@
   <link rel="stylesheet" href="calculadoraIMC/assets/css/styleCalc.css">
   <link rel="stylesheet" href="balançaCalórica/assets/balanca.css">
   <script src="https://kit.fontawesome.com/17a8c00d17.js" crossorigin="anonymous"></script>
- 
+
 </head>
+
 <body>
   <header>
     <div class="divPrincipal">
 
 
       <div class="image">
-          <a href="index.html" class="fa-solid fa-leaf"></a>
+        <a href="index.html" class="fa-solid fa-leaf"></a>
       </div>
 
 
       <div class="divDois">
-          <nav>
-              <ul>
-                  <li>
-                      <a href="sobre.html" class="fa-solid fa-user"></a>
-                  </li>
-                  <li>
-                      <a href="sono.html" class="fa-solid fa-bed"></a>
-                  </li>
-                  <li class="food">
-                      <a href="dieta.html" class="fa-solid fa-bowl-food"></a>
-                  </li>
-                  <li class="aceitacao">
-                      <a href="aceitacao.html" class="fa-solid fa-image-portrait"></a>
-                  </li>
-              </ul>
-          </nav>
+        <nav>
+          <ul>
+            <li>
+              <a href="sobre.html" class="fa-solid fa-user"></a>
+            </li>
+            <li>
+              <a href="sono.html" class="fa-solid fa-bed"></a>
+            </li>
+            <li class="food">
+              <a href="dieta.html" class="fa-solid fa-bowl-food"></a>
+            </li>
+            <li class="aceitacao">
+              <a href="aceitacao.html" class="fa-solid fa-image-portrait"></a>
+            </li>
+          </ul>
+        </nav>
       </div>
-  </div>
-    </header>
+    </div>
+  </header>
 
   <main>
     <section class="slider">
@@ -66,8 +67,8 @@
         <div class="slide-box">
           <div class="blur">
             <a href="https://obshistoricogeo.blogspot.com/2014/09/a-gastronomia-nas-civilizacoes-antigas.html">
-            <img class="slide cdcaD" src="./src/comidasdecivilizaçõesantigas.png"
-            alt="Comidas de civilizações antigas">
+              <img class="slide cdcaD" src="./src/comidasdecivilizaçõesantigas.png"
+                alt="Comidas de civilizações antigas">
             </a>
           </div>
 
@@ -114,18 +115,18 @@
           </li>
           <li>
             <button class="condicao" id="lactose"><span class="fa-solid fa-magnifying-glass "></span>Intolerância a
-            lactose</button>
+              lactose</button>
           </li>
           <li>
             <button class="condicao" id="amendoa"><span class="fa-solid fa-magnifying-glass"></span>Alergia a
-            amêndoas</button>
+              amêndoas</button>
           </li>
           <li>
             <button class="condicao" id="diabetes"><span class="fa-solid fa-magnifying-glass"></span>Diabetes</button>
           </li>
           <li>
             <button class="condicao" id="mar"><span class="fa-solid fa-magnifying-glass"></span>Alergia a frutos do
-            mar</button>
+              mar</button>
           </li>
         </ul>
       </div>
@@ -204,7 +205,8 @@
             </div>
 
             <div class="info" id="more-info">
-              <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">Mais informações sobre o IMC<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">Mais informações sobre o IMC<i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
           </div>
 
@@ -213,86 +215,92 @@
       </div>
     </section>
 
-   <!--BALANÇA-->
-   
+    <!--BALANÇA-->
+
     <section class="balanca_toda">
       <h2>BALANÇA CALÓRICA</h2>
-  
+
+      
       <div class="figura">
-  <div class="balancaDiv">
-      <div class="balanca">
-          <div class="eixo"></div>
-          <div class="basedupla"></div>
-          <div class="base"></div>
-          <div class="topo"></div>
-          <div class="bolinha"></div>
-          <div class="bola"></div>
+        <div class="balancaDiv">
 
-          <div class="prato-esquerdo">
+          <div class="balanca">
+            <div class="eixo"></div>
+            <div class="basedupla"></div>
+            <div class="base"></div>
+            <div class="topo"></div>
+            <div class="bolinha"></div>
+            <div class="bola"></div>
+
+            <div class="prato-esquerdo">
               <div class="hamburguer">
-                  <i class="" id="pratoEsquerdo"></i>
+                <i class="" id="pratoEsquerdo"></i>
 
               </div>
 
               <div class="linhaesquerda"></div>
               <div class="linhadireita"></div>
-          </div>
+            </div>
 
-          <div class="prato-direito">
+            <div class="prato-direito">
               <div class="maca">
-                  <i class="" id="pratoDireito"></i>
-                  <div id="resultado"></div>
+                <i class="" id="pratoDireito"></i>
+                <div id="resultado"></div>
 
               </div>
 
               <div class="linhaesquerda"></div>
               <div class="linhadireita"></div>
+
+            </div>
+
           </div>
+          
+        </div>
       </div>
-    </div>
-  </div>
+      <div class="perguntasBalanca">
 
-  <div class="perguntasBalanca">
-
-      <div class="pergunta1">
+        <div class="pergunta1">
 
           <h3>Qual alimento você mais consome?</h3>
 
           <form action="#" method="get">
-                  <label for="alimento"><span>*Alimento:</span></label>
-                  <select name="alimento" id="alimento">
-                      <option value="fa-burger" data-calorias="195" data-nome="hambúrguer">Hambúrguer (100g)</option>
-                      <option value="fa-pizza-slice" data-calorias="266"data-nome="pizza">Pizza (100g)</option>
-                      <option value="fa-ice-cream" data-calorias="207"data-nome="sorvete">Sorvete (100g)</option>
-                      <option value="fa-hotdog" data-calorias="290"data-nome="hotdog">Hot-dog (100g)</option>
-                      <option value="fa-glass-water" data-calorias="60"data-nome="refrigerante">Refrigerante (200ml) </option>
-                      <option value="fa-cookie" data-calorias="469"data-nome="biscoito recheado">Biscoito Recheado (100g)</option>
-                      <option value="fa-sheet-plastic" data-calorias="556"data-nome="barra de chocolate">Barra de Chocolate (100g)</option>
-                  </select>
+            <label for="alimento"><span>*Alimento:</span></label>
+            <select name="alimento" id="alimento">
+              <option value="fa-burger" data-calorias="195" data-nome="hambúrguer">Hambúrguer (100g)</option>
+              <option value="fa-pizza-slice" data-calorias="266" data-nome="pizza">Pizza (100g)</option>
+              <option value="fa-ice-cream" data-calorias="207" data-nome="sorvete">Sorvete (100g)</option>
+              <option value="fa-hotdog" data-calorias="290" data-nome="hotdog">Hot-dog (100g)</option>
+              <option value="fa-glass-water" data-calorias="60" data-nome="refrigerante">Refrigerante (200ml) </option>
+              <option value="fa-cookie" data-calorias="469" data-nome="biscoito recheado">Biscoito Recheado (100g)
+              </option>
+              <option value="fa-sheet-plastic" data-calorias="556" data-nome="barra de chocolate">Barra de Chocolate
+                (100g)</option>
+            </select>
           </form>
 
-      </div>
-              <div class="pergunta2">
+        </div>
+        <div class="pergunta2">
 
-                  <h3>Por qual alimento você deseja substituir?</h3>
-  
-                  <form action="#" method="get">
-                          <label for="alimento2">*Alimento:</label>
-                          <select name="alimento2" id="alimento2">
-                              <option value="fa-apple-whole" data-calorias2="52"data-nome="maçãs">Maçã (100g)</option>
-                              <option value="fa-leaf" data-calorias2="15" data-nome="saladas de alface">Salada de Alface (100g)</option>
-                              <option value="fa-carrot" data-calorias2="41" data-nome="cenouras">Cenoura (100g)</option>
-                              <option value="fa-egg" data-calorias2="155" data-nome="ovo(s) cozido(s)">Ovo cozido (100g)</option>
-                          </select>
-                  </form>
-  
-              </div>
-            </div>
-  <div id="mensagem">
-      
-  </div>
-  <script src="balançaCalórica/assets/balanca.js"></script>
-  </section>
+          <h3>Por qual alimento você deseja substituir?</h3>
+
+          <form action="#" method="get">
+            <label for="alimento2">*Alimento:</label>
+            <select name="alimento2" id="alimento2">
+              <option value="fa-apple-whole" data-calorias2="52" data-nome="maçãs">Maçã (100g)</option>
+              <option value="fa-leaf" data-calorias2="15" data-nome="saladas de alface">Salada de Alface (100g)</option>
+              <option value="fa-carrot" data-calorias2="41" data-nome="cenouras">Cenoura (100g)</option>
+              <option value="fa-egg" data-calorias2="155" data-nome="ovo(s) cozido(s)">Ovo cozido (100g)</option>
+            </select>
+          </form>
+
+        </div>
+      </div>
+      <div id="mensagem">
+
+      </div>
+      <script src="balançaCalórica/assets/balanca.js"></script>
+    </section>
   </main>
 
   <footer class="footer">
@@ -308,8 +316,10 @@
 
     <div class="footer-icons">
       <a class="face" href="https://www.facebook.com/profile.php?id=61566952310775"><span
-      class="fa-brands fa-facebook"></span></a>
-      <a class="insta" href="https://www.instagram.com/green_life.ifc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span class="fa-brands fa-instagram"></span></a>
+          class="fa-brands fa-facebook"></span></a>
+      <a class="insta"
+        href="https://www.instagram.com/green_life.ifc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
+          class="fa-brands fa-instagram"></span></a>
     </div>
 
     <div class="footer-botao">
@@ -323,18 +333,18 @@
   <script>
 
     /* Deslocamento Menu */
-      let elementos = document.getElementById("divDois").querySelectorAll('li');
-      console.log("Oi");
-      console.log(elementos);
-      elementos.forEach((item) => {
-      item.addEventListener('mouseover', function(e){
-      let traco = document.getElementById("traco");
-      let distanciaLi = e.target.offsetLeft;  
-      
-      traco.style.left = distanciaLi + "px";
+    let elementos = document.getElementById("divDois").querySelectorAll('li');
+    console.log("Oi");
+    console.log(elementos);
+    elementos.forEach((item) => {
+      item.addEventListener('mouseover', function (e) {
+        let traco = document.getElementById("traco");
+        let distanciaLi = e.target.offsetLeft;
 
-      /*Teste*/
-      console.log(e.target.parentElement);
+        traco.style.left = distanciaLi + "px";
+
+        /*Teste*/
+        console.log(e.target.parentElement);
       })
     });
 
