@@ -399,7 +399,7 @@ section.balanca_toda .balanca {
 @media(max-width: 500px) {
 
     section.balanca_toda {
-        padding: 70vw 0 180vw 0;
+        padding: 50vw 0 180vw 0;
         margin-top: 40vw;
         margin-bottom: 1vw;
         align-items: center;
@@ -435,15 +435,13 @@ section.balanca_toda .balanca {
     }
 
     section.balanca_toda div.prato-esquerdo div.hamburguer {
-        font-size: 8vw;
-        
-        
+        font-size: 7vw;
+        margin: -6.8vw 5vw 10vw 5vw;
     }
 
-    section.balanca_toda div.prato-direito div.maca {
+    .prato-direito div.maca {
         font-size: 5vw;
-        
-       
+        margin: -8vw 5vw 10vw 7vw;
     }
 
 
