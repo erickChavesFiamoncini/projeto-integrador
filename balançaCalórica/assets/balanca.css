@@ -406,7 +406,7 @@ section.balanca_toda .balanca {
     }
 
     section.balanca_toda h2 {
-        top: 780vw;
+        top: 760vw;
     }
 
     section.balanca_toda div.perguntasBalanca {
@@ -429,7 +429,7 @@ section.balanca_toda .balanca {
 
     section.balanca_toda #mensagem {
         color: black;
-        top: 1001vw;
+        top: 980vw;
         font-size: 1.1rem;
 
     }
