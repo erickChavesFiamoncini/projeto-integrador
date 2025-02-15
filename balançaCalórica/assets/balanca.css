@@ -429,7 +429,8 @@ section.balanca_toda .balanca {
 
     section.balanca_toda #mensagem {
         color: black;
-        top: 1050vw;
+        top: 1030vw;
+        font-size: 1.1rem;
 
     }
 
