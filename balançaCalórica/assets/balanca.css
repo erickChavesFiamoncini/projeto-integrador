@@ -399,14 +399,14 @@ section.balanca_toda .balanca {
 @media(max-width: 500px) {
 
     section.balanca_toda {
-        padding: 100vw 0 180vw 0;
+        padding: 70vw 0 180vw 0;
         margin-top: 40vw;
         margin-bottom: 1vw;
         align-items: center;
     }
 
     section.balanca_toda h2 {
-        top: 770vw;
+        top: 780vw;
     }
 
     section.balanca_toda div.perguntasBalanca {
@@ -429,7 +429,8 @@ section.balanca_toda .balanca {
 
     section.balanca_toda #mensagem {
         color: black;
-        top: 1030vw;
+        top: 1050vw;
+
     }
 
     section.balanca_toda div.prato-esquerdo div.hamburguer {
