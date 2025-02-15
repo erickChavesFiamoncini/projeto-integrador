@@ -400,7 +400,7 @@ section.balanca_toda .balanca {
     }
 
     section.balanca_toda h2 {
-        top: 740vw;
+        top: 770vw;
     }
 
     section.balanca_toda div.perguntasBalanca {
@@ -423,8 +423,21 @@ section.balanca_toda .balanca {
 
     section.balanca_toda #mensagem {
         color: black;
-        top: 960vw;
+        top: 985vw;
     }
+
+    section.balanca_toda div.prato-esquerdo div.hamburguer {
+        font-size: 8vw;
+        
+        
+    }
+
+    section.balanca_toda div.prato-direito div.maca {
+        font-size: 5vw;
+        align-items: center;
+       
+    }
+
 
     /* section.balanca_toda div.balanca .eixo {
         width: 2vw;
