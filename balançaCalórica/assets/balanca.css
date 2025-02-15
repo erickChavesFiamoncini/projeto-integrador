@@ -138,12 +138,12 @@ section.balanca_toda {
 
 section.balanca_toda h2 {
     position: absolute;
-    top: 118vw;
+    top: 120vw;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 1.8rem;
-    color: black;
+    font-size: 2rem;
+    color: black
 }
 
 section.balanca_toda div.balanca {
@@ -153,6 +153,7 @@ section.balanca_toda div.balanca {
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 4vw;
 }
 
 section.balanca_toda div.balanca {
@@ -319,8 +320,7 @@ section.balanca_toda div.perguntasBalanca {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    padding: 0 0 3vw 0;
-    margin-top: -270px;
+    padding: 0 0 2vw 0;
 }
 
 section.balanca_toda div.perguntasBalanca div.pergunta1 {
@@ -372,7 +372,7 @@ section.balanca_toda div.perguntasBalanca div.pergunta2 h3 {
 
 section.balanca_toda #mensagem {
     position: absolute;
-    top: 145vw;
+    top: 155vw;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -388,6 +388,12 @@ section.balanca_toda .balanca {
     padding: 0vw 0 7vw 6vw;
     margin-top: -90px;
 }
+
+
+
+
+
+
 
 /*RESPONSIVIDADE*/
 @media(max-width: 500px) {
@@ -521,8 +527,6 @@ section.balanca_toda .balanca {
         bottom: -55vw;
         right: 8.7vw;
     }*/
-
-
 
 
 
