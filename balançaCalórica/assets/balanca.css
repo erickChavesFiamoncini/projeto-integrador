@@ -423,13 +423,13 @@ section.balanca_toda .balanca {
         align-items: center;
         width: 50%;
         left: 25%;
-        top: 10rem;
+        top: 26rem;
        
     }
 
     section.balanca_toda #mensagem {
         color: black;
-        top: 985vw;
+        top: 1030vw;
     }
 
     section.balanca_toda div.prato-esquerdo div.hamburguer {
@@ -440,7 +440,7 @@ section.balanca_toda .balanca {
 
     section.balanca_toda div.prato-direito div.maca {
         font-size: 5vw;
-        align-items: center;
+        
        
     }
 
