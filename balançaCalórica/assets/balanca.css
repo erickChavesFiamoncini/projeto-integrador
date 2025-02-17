@@ -372,7 +372,7 @@ section.balanca_toda div.perguntasBalanca div.pergunta2 h3 {
 
 section.balanca_toda #mensagem {
     position: absolute;
-    top: 155vw;
+    top: 160vw;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
