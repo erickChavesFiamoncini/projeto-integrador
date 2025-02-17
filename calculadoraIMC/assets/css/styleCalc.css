@@ -23,7 +23,7 @@
 }
 
 #img img {
-    width: 32rem;
+    width: 25rem;
 }
 
 #calculator {
@@ -165,4 +165,12 @@
 
 .attention {
     color: #dc2626;
+}
+
+@media screen and (max-width: 500px) {
+    #calculator {
+    
+        padding: 0.5rem;
+    }
+
 }

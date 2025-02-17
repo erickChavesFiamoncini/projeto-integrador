@@ -136,9 +136,9 @@ section.balanca_toda {
     padding: 18vw 4vw 20vw 4vw;
 }
 
-section.balanca_toda h2 {
+section.balanca h2 {
     position: absolute;
-    top: 120vw;
+    margin: 2vw 0 0 0;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -397,6 +397,11 @@ section.balanca_toda .balanca {
 
 /*RESPONSIVIDADE*/
 @media(max-width: 500px) {
+    header, hgroup, menu, nav, section {
+        width: 100%;
+    }
+    
+    
 
     section.balanca_toda {
         padding: 50vw 0 180vw 0;
@@ -405,8 +410,8 @@ section.balanca_toda .balanca {
         align-items: center;
     }
 
-    section.balanca_toda h2 {
-        top: 760vw;
+    section.balanca h2 {
+        margin: 65vw 0 0 0;
     }
 
     section.balanca_toda div.perguntasBalanca {
@@ -429,7 +434,7 @@ section.balanca_toda .balanca {
 
     section.balanca_toda #mensagem {
         color: black;
-        top: 985vw;
+        margin: 810vw 0 0 0;
         font-size: 1.1rem;
 
     }

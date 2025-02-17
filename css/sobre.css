@@ -870,21 +870,23 @@ div.integrantes div.imagens div.texto {
 
 .manual-navegacao {
   position: absolute;
-  width: 800px;
+  width: 100px;
   margin-top: -370px;
-  margin-left: -220.9px;
+  margin-left: 130px;
   display: flex;
   justify-content: center;
   transition: 3s;
 }
 
 
+
 .navegacao-auto {
   position: absolute;
-  width: 500px;
+  width: 100px;
   margin-top: 30px;
-  margin-left: -70px;
-  display: flex;
+  margin-left: 130px;
+  display: flex
+;
   justify-content: center;
 }
 div.integrantes div.imagens div.texto {

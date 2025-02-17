@@ -708,6 +708,9 @@ section.pequenos .fa-solid {
 
 /*         RESPONSIVO                    */
 @media screen and (max-width: 500px) {
+    header div.divDois ul li {
+        padding: 0 25px;
+    }
     section.banner h1 {
         font-size: 1rem;
         color: #ffffff;
@@ -740,6 +743,7 @@ section.pequenos .fa-solid {
     main section.pequenos div.maincontainer {
         flex-direction: column;
     }
+    
     section.pequenos div {
         width: 90%;
         height: 200%;
@@ -759,7 +763,10 @@ section.pequenos .fa-solid {
         font-size: 3rem;
 
     }
-
+    section.pequenos {
+        width: 90%;
+    
+    }
 
 
     /*            REM                 */
